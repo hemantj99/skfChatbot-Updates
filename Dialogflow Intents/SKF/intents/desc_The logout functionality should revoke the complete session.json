@@ -1,0 +1,27 @@
+{
+  "id": "623486fa-69dd-4922-84cc-d1c2416f1f7b",
+  "name": "desc_The logout functionality should revoke the complete session",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"When the logout functionality does not revoke the complete session, an attacker could stillimpersonate a user when he has access to the session cookie even after the user is logged off the application.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

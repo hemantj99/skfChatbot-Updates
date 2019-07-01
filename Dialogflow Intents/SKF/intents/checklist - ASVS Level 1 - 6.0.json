@@ -1,0 +1,36 @@
+{
+  "id": "de123dfb-6bd3-43fe-90a9-20a7d8419ed8",
+  "name": "checklist - ASVS Level 1 - 6.0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "6.0 Stored Cryptography Verification Requirements\n6.2.1 Verify that all cryptographic modules fail securely, and errors are handled in a way that does not enable Padding Oracle attacks."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

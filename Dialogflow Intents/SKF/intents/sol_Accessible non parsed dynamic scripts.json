@@ -1,0 +1,27 @@
+{
+  "id": "420e2460-a66d-455c-b3ce-5d11fdc6c421",
+  "name": "sol_Accessible non parsed dynamic scripts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Always add the different types of extensions to the webserver handler to parse. This way the file source cannot be viewed."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

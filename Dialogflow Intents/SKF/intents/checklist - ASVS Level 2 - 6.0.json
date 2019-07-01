@@ -1,0 +1,33 @@
+{
+  "id": "330aa72a-d0b0-400b-95cf-51fac5bd9565",
+  "name": "checklist - ASVS Level 2 - 6.0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "6.0 Stored Cryptography Verification Requirements\n6.1.1 Verify that regulated private data is stored encrypted while at rest, such as personally identifiable information (PII); sensitive personal information, or data assessed likely to be subject to EU\u0027s GDPR.\n6.1.2 Verify that regulated health data is stored encrypted while at rest, such as medical records, medical device details, or de-anonymized research records.\n6.1.3 Verify that regulated financial data is stored encrypted while at rest, such as financial accounts, defaults or credit history, tax records, pay history, beneficiaries, or de-anonymized market or research records.\n6.2.1 Verify that all cryptographic modules fail securely, and errors are handled in a way that does not enable Padding Oracle attacks.\n6.2.2 Verify that industry proven or government approved cryptographic algorithms, modes, and libraries are used, instead of custom coded cryptography. ([C8](https://www.owasp.org/index.php/OWASP_Proactive_Controls#tab\u003dFormal_Numbering))\n6.2.3 Verify that encryption initialization vector, cipher configuration, and block modes are configured securely using the latest advice.\n6.2.4 Verify that random number, encryption or hashing algorithms, key lengths, rounds, ciphers or modes, can be reconfigured, upgraded, or swapped at any time, to protect against cryptographic breaks. ([C8](https://www.owasp.org/index.php/OWASP_Proactive_Controls#tab\u003dFormal_Numbering))\n6.2.5 Verify that known insecure block modes (i.e. ECB, etc.); padding modes (i.e. PKCS#1 v1.5, etc.); ciphers with small block sizes (i.e. Triple-DES, Blowfish, etc.); and weak hashing algorithms (i.e. MD5, SHA1, etc.) are not used unless required for backwards compatibility.\n6.2.6 Verify that nonces, initialization vectors, and other single use numbers must not be used more than once with a given encryption key. The method of generation must be appropriate for the algorithm being used.\n6.3.1 Verify that all random numbers, random file names, random GUIDs, and random strings are generated using the cryptographic module\u0027s approved cryptographically secure random number generator when these random values are intended to be not guessable by an attacker.\n6.3.2 Verify that random GUIDs are created using the GUID v4 algorithm, and a cryptographically-secure pseudo-random number generator (CSPRNG). GUIDs created using other pseudo-random number generators may be predictable.\n6.4.1 Verify that a secrets management solution such as a key vault is used to securely create, store, control access to and destroy secrets. ([C8](https://www.owasp.org/index.php/OWASP_Proactive_Controls#tab\u003dFormal_Numbering))\n6.4.2 Verify that key material is not exposed to the application but instead uses an isolated security module like a vault for cryptographic operations. ([C8](https://www.owasp.org/index.php/OWASP_Proactive_Controls#tab\u003dFormal_Numbering))"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

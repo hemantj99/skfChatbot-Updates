@@ -1,0 +1,27 @@
+{
+  "id": "cf23b4ac-3600-48b4-9104-8254268331a7",
+  "name": "sol_Session information is not stored server side",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Session information should always be stored  on the serverside by means of a serverside language.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

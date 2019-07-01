@@ -1,0 +1,27 @@
+{
+  "id": "92fb2916-6e8f-4c23-8720-e32f53e6feca",
+  "name": "desc_Session cookies without the Secure flag",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"The secure flag is an option that can be set when creating a cookie.This flag ensures that the cookie will not be sent over an unencryptedconnection by the browser,which ensures that the session cookie can not be sent over a nonencrypted link.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

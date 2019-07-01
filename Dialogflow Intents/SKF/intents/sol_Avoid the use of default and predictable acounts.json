@@ -1,0 +1,27 @@
+{
+  "id": "89e89d02-dbff-4c7e-b4f8-a52eed42b1c3",
+  "name": "sol_Avoid the use of default and predictable acounts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Verify that all keys and passwords are replaceable, and are generated orreplaced after installation time.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

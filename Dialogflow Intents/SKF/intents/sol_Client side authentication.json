@@ -1,0 +1,27 @@
+{
+  "id": "6f9d6e72-6389-49ea-a312-530a5c5c7f39",
+  "name": "sol_Client side authentication",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Never implement clientside authentication constraints, since these are easily bypassed.When implementing authentication methods always use serverside solutions.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

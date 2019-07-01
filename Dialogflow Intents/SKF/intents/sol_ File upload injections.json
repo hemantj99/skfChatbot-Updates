@@ -1,0 +1,27 @@
+{
+  "id": "ddf30c19-a5a9-4f36-9e26-8f7377e3e0e7",
+  "name": "sol_ File upload injections",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Uploaded files always need to be placed outside the document root of the webserver.You should also check the userinput(filename) for having the right allowed extensions such as .jpg, .png etc.Note: when checking these extensions always make sure your application validates the last possible extension so an attacker could not simply inject \\\".jpg.php\\\" and bypass your validationAfter this validation, you must also check the userinput(filename) for containing possible path traversal patterns in order to prevent him from uploading outside of the intended directory.Most developers also do a mimetype check. This is a good protection however not whenever you are checking this mimetype through the post request. This header can not be trusted since it can be easily manipulated by an attacker.The best way to check the mimetype is to extract the file from the server after uploading and check it from the file itself. Deleting it whenever it does not comply with expected values.You may also want to check if the filenames do already exist before uploading in order to prevent the overwriting of files.Also for serving the files back there needs to be a file handler function that can select the file based on an identifier that will serve the file back towards the user."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "d7591c5b-d40e-49ac-a551-f18c3e4f648b",
+  "name": "desc_SQLinjectionColumntruncation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Whenever an applications structural logic mismatches with the database structural logic an attacker gains the opportunity to truncate his submit towards your database column by submitting a value longer than the limit allowed in the database. Imagine you have a system where users can register themselves.The attacker can abuse this behavior of the database to overflow the length limit and truncate his submit and register himself as the admin, thus gaining its privileges.  \","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

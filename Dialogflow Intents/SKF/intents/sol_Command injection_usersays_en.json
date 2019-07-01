@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ad27f23a-e415-4d8f-bad7-6ac6a72662c0",
+    "data": [
+      {
+        "text": "How to get secured against Command injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "84218f87-c861-43ba-beec-2815ccb59657",
+    "data": [
+      {
+        "text": "How to defend Command injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "77651281-b74d-4e4a-a031-65f25f384408",
+    "data": [
+      {
+        "text": "How to stop Command injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d13d4bc5-cbfa-4736-8194-0ba63dd0995a",
+    "data": [
+      {
+        "text": "How to mitigate Command injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7e3b9ed3-c2ae-4506-addb-7d553b4f3305",
+    "data": [
+      {
+        "text": "How to resolve Command injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0d64e1c1-8cba-49fd-a023-ec7fd69f372a",
+    "data": [
+      {
+        "text": "How to solve Command injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

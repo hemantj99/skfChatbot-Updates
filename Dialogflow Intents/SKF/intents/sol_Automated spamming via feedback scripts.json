@@ -1,0 +1,27 @@
+{
+  "id": "776ab529-e1e0-4ca3-9acd-337e9c011867",
+  "name": "sol_Automated spamming via feedback scripts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"This problem could be prevented by implementing CAPTCHA or ratelimiting mechanisms.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

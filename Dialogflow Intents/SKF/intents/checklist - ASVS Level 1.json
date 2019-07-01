@@ -1,0 +1,48 @@
+{
+  "id": "be9c576d-9123-463d-9bea-ff3d39ec0368",
+  "parentId": "ebe9b651-a881-48b3-b78b-e3e3e76c01f5",
+  "rootParentId": "ebe9b651-a881-48b3-b78b-e3e3e76c01f5",
+  "name": "checklist - ASVS Level 1",
+  "auto": true,
+  "contexts": [
+    "checklist-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checklist.checklist-custom",
+      "affectedContexts": [
+        {
+          "name": "checklist-ASVSLevel1-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Do you want Whole checklist ?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "5dddb8be-4de9-4d7a-b1c6-1007207803ed",
+  "name": "sol_Resource identifier injection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Safe use of resource identifiers can be done by performing authorisation checks if theidentifier belongs to the user.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

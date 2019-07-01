@@ -1,0 +1,27 @@
+{
+  "id": "bca27465-61ab-478f-9292-0a4e25cfdec6",
+  "name": "desc_Regular expression injection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"If the application uses regular expressions which receive user input,then the user input should be properly escaped.If not done properly, then the hacker can affect the regular expression and modify theirlogic. In some cases, an attacker could even gain access to the server.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

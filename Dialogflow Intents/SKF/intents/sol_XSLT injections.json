@@ -1,0 +1,30 @@
+{
+  "id": "c9bc687c-bc12-4f0c-9817-d700800f0466",
+  "name": "sol_XSLT injections",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "To protect against such vulnerability one needs to make sure that he does not use user supplied input in the XSL filename. The best solution would be to define a list of permitted filenames and only accept XSL filenames from that list."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

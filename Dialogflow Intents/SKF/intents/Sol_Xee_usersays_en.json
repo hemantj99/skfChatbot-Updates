@@ -1,0 +1,62 @@
+[
+  {
+    "id": "6ed76a00-0338-4732-ad1b-b4241e7363e2",
+    "data": [
+      {
+        "text": "Provide me some Solution for XXE injections",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4f74f48f-5cb8-4997-9c2a-b3a6c3549437",
+    "data": [
+      {
+        "text": "Solution for XXE injections",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "675a1c3f-6297-4a88-9e94-b25dd7bded60",
+    "data": [
+      {
+        "text": "How to resolve XXE injections ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d00f1bd5-b62f-46af-a988-8a424f903ff1",
+    "data": [
+      {
+        "text": "How to mitigate XXE injections ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4943ce75-2721-47e9-8595-51624852081d",
+    "data": [
+      {
+        "text": "How to solve XXE injections ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "id": "244cc46e-6073-4c36-acf9-b2b0e441e04b",
+  "name": "desc_Directory listing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever directory listing is enabled, an attacker could gain sensitive information aboutthe systems hierarchical structure and gain knowledge about directories or files which shouldpossibly not be publicly accessible. An attacker could use this information toincrease his attack vector. In some cases this could even lead to an attacker gaining knowledge aboutcredentials or old vulnerable system demo functions which might lead to remote code execution.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

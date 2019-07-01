@@ -1,0 +1,27 @@
+{
+  "id": "a8ee8952-e18c-44ad-a3ed-af2a637e4ec4",
+  "name": "sol_Include anti caching headers",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "These headers are also known as the: Cachecontrol: nostore,nocache and provide protection of sensitive information when implemented in the application or webserver.Rightly configured anti caching headers will look like the following as a response."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

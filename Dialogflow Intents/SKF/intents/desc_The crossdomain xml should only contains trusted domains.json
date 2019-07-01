@@ -1,0 +1,29 @@
+{
+  "id": "afef812a-bfd5-40e2-a55d-ea99e92ef6ed",
+  "name": "desc_The crossdomain xml should only contains trusted domains",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"The use of a crossdomain.xml file is required when the web application uses Flash.This file is used to set up restrictions for any other web servers using theflash application. If these are not set correctly, an attacker could exploit this toexecute targeted attacks against the users of the web application.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

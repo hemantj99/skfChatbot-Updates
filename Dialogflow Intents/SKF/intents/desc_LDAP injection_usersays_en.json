@@ -1,0 +1,134 @@
+[
+  {
+    "id": "b3909055-e7a3-4a81-bd92-c52d63f050d6",
+    "data": [
+      {
+        "text": "Do you have information about LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "544c82f5-962c-439f-88e9-1c7446c6342a",
+    "data": [
+      {
+        "text": "I want to know about XSS LDAP injection",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aa393237-6ec8-4a42-9723-57534f386fd5",
+    "data": [
+      {
+        "text": "What can you tell me about LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fa2808ff-510a-4f55-8d5e-1dbeee161e97",
+    "data": [
+      {
+        "text": "What do you know about LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a97bf24a-e9c0-4655-adc4-23c80224c4be",
+    "data": [
+      {
+        "text": "Can you tell me about LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e9d7a144-34be-4bd0-af26-c58bcc57d8aa",
+    "data": [
+      {
+        "text": "Elaborate LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "67794999-286d-4922-93d9-d77ccb4a8605",
+    "data": [
+      {
+        "text": "Explain LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "343e56ad-f0a2-4702-94cb-c859dd7adade",
+    "data": [
+      {
+        "text": "LDAP injection",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cae903f3-996e-4644-9783-9511e8df4841",
+    "data": [
+      {
+        "text": "Tell me something about LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "819c49a2-062b-4802-9ae7-80844091d830",
+    "data": [
+      {
+        "text": "What does LDAP injection mean ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ce633268-5033-4db8-9416-2c573bb56405",
+    "data": [
+      {
+        "text": "What is LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

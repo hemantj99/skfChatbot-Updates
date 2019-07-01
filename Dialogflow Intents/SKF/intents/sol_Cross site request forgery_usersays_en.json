@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dd4b0caf-83a8-427a-adc7-48c8f8a26b2c",
+    "data": [
+      {
+        "text": "How to get secured against Cross site request forgery ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e3c3f8a4-318b-4b7d-acb3-580525df2654",
+    "data": [
+      {
+        "text": "How to defend Cross site request forgery ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d8c48aa8-c84f-48ae-9266-023943919edc",
+    "data": [
+      {
+        "text": "How to stop Cross site request forgery ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ec1be2ac-53fb-457f-a70b-6a1b3e3a87bc",
+    "data": [
+      {
+        "text": "How to mitigate Cross site request forgery ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e657efb3-a323-4f3b-ab13-5f4dda92c688",
+    "data": [
+      {
+        "text": "How to resolve Cross site request forgery ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "39037273-2ef9-47dc-a84d-18ce972dce26",
+    "data": [
+      {
+        "text": "How to solve Cross site request forgery ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

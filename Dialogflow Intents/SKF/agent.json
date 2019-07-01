@@ -1,0 +1,182 @@
+{
+  "description": "",
+  "language": "en",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "skf-gqvclo",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "00452838-0676-475c-aa84-9c537a8e0023",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0102f1c8-63a2-456b-a8c5-9f6822daf495",
+        "signInRequired": false
+      },
+      {
+        "intentId": "033ff2a3-f8ac-416b-8550-fbe604a5744f",
+        "signInRequired": false
+      },
+      {
+        "intentId": "06e73879-9b9c-48f4-ba47-a262eacfa07e",
+        "signInRequired": false
+      },
+      {
+        "intentId": "085f9f5a-7270-423d-be06-bbfe84895bae",
+        "signInRequired": false
+      },
+      {
+        "intentId": "088582c8-e039-4ebc-a0ea-dbbf6493ec9f",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0a234356-13c7-4fe1-adf5-f36e38171431",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0b98d013-b0f9-4c82-b72d-e4b85856aa1e",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0b10cd25-63dc-49b3-a0a8-422e487ae7a9",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0c238386-0ea5-45a4-ae27-c9fe3bbbe473",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0c8aac8b-07e1-4664-b7c8-91954a2f0ae1",
+        "signInRequired": false
+      },
+      {
+        "intentId": "118e9056-5e52-4a74-8c2a-f66c4d388f1f",
+        "signInRequired": false
+      },
+      {
+        "intentId": "1128d893-f172-4305-b4f2-5cf87d061c25",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0eec03e9-cd0f-4d94-9201-6090dcb2cca5",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0e73e8ed-1836-4a02-89b7-a7919db51196",
+        "signInRequired": false
+      },
+      {
+        "intentId": "1208e687-a726-4974-ae43-95da6c1b76a9",
+        "signInRequired": false
+      },
+      {
+        "intentId": "16e6654c-0fb8-4e1f-81c0-728daea000af",
+        "signInRequired": false
+      },
+      {
+        "intentId": "17b3c875-a428-4125-a1a9-86d662aff684",
+        "signInRequired": false
+      },
+      {
+        "intentId": "14f5d8cc-5d16-40e6-a589-d0ae7b371353",
+        "signInRequired": false
+      },
+      {
+        "intentId": "148f54df-b87c-460c-b529-b4c3e48870f5",
+        "signInRequired": false
+      },
+      {
+        "intentId": "138c2a53-9fdd-426e-b8a2-dcc9b2486a65",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0d705734-9e96-4bab-9a0a-b1fe7b7c4564",
+        "signInRequired": false
+      },
+      {
+        "intentId": "1f0a3406-7846-4023-9a79-ccfdf5ee14e0",
+        "signInRequired": false
+      },
+      {
+        "intentId": "207cd4d6-a46d-4587-9c06-0596adffc0b6",
+        "signInRequired": false
+      },
+      {
+        "intentId": "1d747d7c-33aa-4eaa-8055-602737436369",
+        "signInRequired": false
+      },
+      {
+        "intentId": "1d57c39a-267b-4af5-969d-90a07c157689",
+        "signInRequired": false
+      },
+      {
+        "intentId": "1bb4b1e3-1d22-4f8f-bdf4-cfe2c25beec3",
+        "signInRequired": false
+      },
+      {
+        "intentId": "22d0f652-be55-4288-97e8-10a5007f49c0",
+        "signInRequired": false
+      },
+      {
+        "intentId": "244cc46e-6073-4c36-acf9-b2b0e441e04b",
+        "signInRequired": false
+      },
+      {
+        "intentId": "2b9fdaec-8f55-4f3a-8c51-a3768de5b22c",
+        "signInRequired": false
+      },
+      {
+        "intentId": "2a57e0cd-32b4-4100-aa45-4f77f8247249",
+        "signInRequired": false
+      },
+      {
+        "intentId": "287ab491-40db-498b-80d6-86757c98a5cf",
+        "signInRequired": false
+      },
+      {
+        "intentId": "26284aed-d479-4c2b-9629-090c5a036e21",
+        "signInRequired": false
+      },
+      {
+        "intentId": "1a336cd7-0ec3-42f7-9bec-712cd83385ce",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "3bdf7ac7-556c-49bf-8649-fd10bb01bd48"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Almaty",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

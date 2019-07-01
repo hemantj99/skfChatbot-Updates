@@ -1,0 +1,27 @@
+{
+  "id": "033ff2a3-f8ac-416b-8550-fbe604a5744f",
+  "name": "Include Strict Transport Security header",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "HTTP StrictTransportSecurity (HSTS) enforces secure (HTTP over SSL/TLS) connections to the server. This reduces the impact of bugs in web applications leaking session data through cookies and external links and defends against Maninthemiddle attacks. HSTS also disables the ability for user\u0027s to ignore SSL negotiation warnings."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

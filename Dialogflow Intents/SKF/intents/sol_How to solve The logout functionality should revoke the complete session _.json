@@ -1,0 +1,27 @@
+{
+  "id": "f512abcb-c30b-4811-bbe4-bac7a92ca6bb",
+  "name": "sol_How to solve The logout functionality should revoke the complete session ?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"The logout functionality should revoke the complete session whenever a userwants to terminate his session.Each different framework has its own guide to achieve this revocation.It is also recommended for you to make test cases which you follow to ensuresession revocation in your application.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

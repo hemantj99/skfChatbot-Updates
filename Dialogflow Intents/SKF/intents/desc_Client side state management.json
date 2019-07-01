@@ -1,0 +1,29 @@
+{
+  "id": "5f3adf4d-f0d3-4f29-848f-3d57edb31906",
+  "name": "desc_Client side state management",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "An application can implement all kinds of logic rules through JavaScript and HTML. However, these are clientside constraints that a hacker can easily disable or modify."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

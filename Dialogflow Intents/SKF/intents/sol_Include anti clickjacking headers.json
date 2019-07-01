@@ -1,0 +1,27 @@
+{
+  "id": "1bb4b1e3-1d22-4f8f-bdf4-cfe2c25beec3",
+  "name": "sol_Include anti clickjacking headers",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "To avoid your application from being clickjacked you can add the XframeOptions header to your application. These headers can be configured as:    XframeOptions: denyThe page cannot be displayed in a frame, regardless of the site attempting to do so.    XFrameOptions: sameorign  The page can only be displayed in a frame on the same origin as the page itself.    XFrameOptions: ALLOWFROM uriThe page can only be displayed in a frame on the specified origin.You may also want to consider to include \\\"Framebreaking/Framebusting\\defense for legacy browsers that do not support XFrameOption headers.Source: https://www.codemagi.com/blog/post/194"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

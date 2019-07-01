@@ -1,0 +1,33 @@
+{
+  "id": "e21566e2-8bb3-4821-8a8a-6f9e948d1747",
+  "name": "desc_XSLT injections",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "A vulnerability occurs when an XSL file is loaded from a source controlled by an attacker. When the attacker is given the opportunity to specify the source of the included XSL file he could include a file which contains malicious code to be parsed on the target application. This could lead to, code execution, reading arbitrary files and many more vulnerabilities such as XSS."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

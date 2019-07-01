@@ -1,0 +1,27 @@
+{
+  "id": "c2854324-721d-41a5-b1f0-17faf9d8d579",
+  "name": "sol_Principle of complete mediation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Verify all access controls are implemented properly in order to prevent a user access data/functions which he was not intended to use.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "06e73879-9b9c-48f4-ba47-a262eacfa07e",
+  "name": "desc_Security settings in your development frameworks",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever certain security settings in your application frameworks(e.g., Struts, Spring, ASP.NET) and libraries are not set to secure values, this could leadto vulnerabilities in your application which an attacker could exploit.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "309d6559-b78e-4e74-b18d-e2bb67a51a10",
+  "name": "desc_Accessible non parsed dynamic scripts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Applications often include files in other pages. When these files can be directly approached by normal users, the operation of the application can be traced because the source code becomes available. This improves the possibility that the attacker discovers vulnerabilities.It is also highly recommended that old files are removed from the server and not beind stored or backuped."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

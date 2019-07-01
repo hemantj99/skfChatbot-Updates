@@ -1,0 +1,27 @@
+{
+  "id": "edfcd6c6-7056-4c9d-afea-43aebf9d72ca",
+  "name": "sol_ Insecure datastorage",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Sensitive data in all forms should always be stored by an encrypted manner.We recommend to follow the \\\"Secure Cryptographic datastorage\\\"cheatsheet found on OWASP.https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

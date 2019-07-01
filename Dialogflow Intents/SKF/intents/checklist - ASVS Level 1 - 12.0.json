@@ -1,0 +1,36 @@
+{
+  "id": "bda6e498-e93e-4057-be04-4ad3ed52e6a5",
+  "name": "checklist - ASVS Level 1 - 12.0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "12.0 File and Resources Verification Requirements\n12.1.1 Verify that the application will not accept large files that could fill up storage or cause a denial of service attack.\n12.3.1 Verify that user-submitted filename metadata is not used directly with system or framework file and URL API to protect against path traversal.\n12.3.2 Verify that user-submitted filename metadata is validated or ignored to prevent the disclosure, creation, updating or removal of local files (LFI).\n12.3.3 Verify that user-submitted filename metadata is validated or ignored to prevent the disclosure or execution of remote files (RFI); which may also lead to SSRF.\n12.3.4 Verify that the application protects against reflective file download (RFD) by validating or ignoring user-submitted filenames in a JSON, JSONP, or URL parameter, the response Content-Type header should be set to text/plain, and the Content-Disposition header should have a fixed filename.\n12.3.5 Verify that untrusted file metadata is not used directly with system API or libraries, to protect against OS command injection.\n12.4.1 Verify that files obtained from untrusted sources are stored outside the web root, with limited permissions, preferably with strong validation.\n12.4.2 Verify that files obtained from untrusted sources are scanned by antivirus scanners to prevent upload of known malicious content.\n12.5.1 Verify that the web tier is configured to serve only files with specific file extensions to prevent unintentional information and source code leakage. For example, backup files (e.g. .bak); temporary working files (e.g. .swp); compressed files (.zip, .tar.gz, etc) and other extensions commonly used by editors should be blocked unless required.\n12.5.2 Verify that direct requests to uploaded files will never be executed as HTML/JavaScript content.\n12.6.1 Verify that the web or application server is configured with a whitelist of resources or systems to which the server can send requests or load data/files from."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

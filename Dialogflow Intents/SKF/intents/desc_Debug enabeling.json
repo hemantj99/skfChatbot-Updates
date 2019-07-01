@@ -1,0 +1,29 @@
+{
+  "id": "aac7d2ae-3da5-4f44-ac97-0852c2412986",
+  "name": "desc_Debug enabeling",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sometimes it is possible through an \\\"enabling debug parameter  to display technical information within the application. As a result, the attacker learns more about the operation of the application, increasing his attack vector."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

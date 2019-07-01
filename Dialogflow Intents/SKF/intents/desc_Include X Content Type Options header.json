@@ -1,0 +1,27 @@
+{
+  "id": "1d57c39a-267b-4af5-969d-90a07c157689",
+  "name": "desc_Include X Content Type Options header",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The only defined value, nosniff, prevents Internet Explorer and Google Chrome from MIMEsniffing a response away from the declared contenttype. This also applies to Google Chrome, when downloading extensions. This reduces exposure to driveby download attacks and sites serving user uploaded content that, by clever naming, could be treated by MSIE as executable or dynamic HTML files."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

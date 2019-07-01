@@ -1,0 +1,35 @@
+{
+  "id": "3bdf7ac7-556c-49bf-8649-fd10bb01bd48",
+  "name": "Desc_hsts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"HTTP StrictTransportSecurity (HSTS) allows sites to specify that they should be accessed via a secure connection only. The problem is, a user\u0027s first request to a site employing HSTS may not be over HTTPS. A preload list will allow us to ship Firefox with some preset HSTS sites that, from the first time they\u0027re accessed in the browser, will require a secure connection. \","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

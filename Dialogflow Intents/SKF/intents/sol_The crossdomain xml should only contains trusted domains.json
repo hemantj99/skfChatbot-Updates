@@ -1,0 +1,27 @@
+{
+  "id": "a65bd2cf-6754-4b67-beb1-6ad497aabcae",
+  "name": "sol_The crossdomain xml should only contains trusted domains",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Always make sure the crossdomain.xml only contains trusted domains.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

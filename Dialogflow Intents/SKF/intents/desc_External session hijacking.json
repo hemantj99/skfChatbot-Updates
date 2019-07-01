@@ -1,0 +1,27 @@
+{
+  "id": "876e835f-a47e-4a42-9060-94f4a1eee666",
+  "name": "desc_External session hijacking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"When an attacker obtains a users session cookie, then he can steal the identity of theuser which the session cookie belongs to.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

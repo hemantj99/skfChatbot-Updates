@@ -1,0 +1,27 @@
+{
+  "id": "3364cf7b-aa69-458a-a898-a724ed61f6dd",
+  "name": "sol_ Too verbose authentication",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"The application should never publish available usernames. When an attacker gains thisinformation he increases his attack vector and reduces the timerequired to identify accounts.I.e:Imagine a forgot password function where the user enters his username in order for theapplication to send a new password to his email address, the user enters a correct usernameand the application responds with:“Email successfully sent to your email address.” When the user enters an incorrect username it says,  “Error: user does not exist.”This function would be vulnerable to username enumeration\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

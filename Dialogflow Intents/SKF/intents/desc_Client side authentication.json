@@ -1,0 +1,29 @@
+{
+  "id": "2e6bb9c6-d52e-416b-9d6a-12ebe27a2faf",
+  "name": "desc_Client side authentication",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"An application could implement authentication functionalities through JavaScript and HTML.However, these are clientside constraints that are imposed, which means that a hackercan easily disable or modify these constraints.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "66214afa-183c-4d46-8df4-e00954d0f536",
+  "name": "sol_Insecure transmission of session cookies",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Session cookies that are used to authenticate the user should always be set on asecure connection.In order to achieve this, you should set the \\\"secure\\\"flag on your session cookieto make sure your application in any circumstance does not send this cookie over nonHTTPS connections.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

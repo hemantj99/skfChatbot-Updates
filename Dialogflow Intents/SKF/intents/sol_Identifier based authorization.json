@@ -1,0 +1,27 @@
+{
+  "id": "9b65e2c1-4c86-472d-81d1-40ff8ec15b31",
+  "name": "sol_Identifier based authorization",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Whenever you are checking whether a user is restricted to review certain data, the accessrestrictions should be processed serverside.The userID should be stored inside of a session variable on login and should be used toretrieve user data from the database like : SELECT data from personaldata where userID\u003d:id \u003c session varNow a possible attacker cannot tamper and change the application operation since theidentifier for retrieving the data is handled serverside.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

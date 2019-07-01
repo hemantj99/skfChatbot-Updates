@@ -1,0 +1,35 @@
+{
+  "id": "5d1e32b0-f0a9-4b16-9000-3a64ae7bbc8a",
+  "name": "sol_xmlattacks",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "\"Items listed below are recommended to read whenever you are planning to use XML in your application.Recommended knowledge base items: XML injection  External DTD parsing  XSLT injections  XPath injections  XXE injections \""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Items listed below are recommended to read whenever you are planning to use XML in your application.Recommended knowledge base items: XML injection  External DTD parsing  XSLT injections  XPath injections  XXE injections \""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

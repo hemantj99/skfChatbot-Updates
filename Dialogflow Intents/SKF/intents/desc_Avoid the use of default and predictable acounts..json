@@ -1,0 +1,29 @@
+{
+  "id": "a41aec17-f9df-43c4-ac7f-940484e6809e",
+  "name": "desc_Avoid the use of default and predictable acounts.",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever default or predictable accounts are available on an application/server this couldlead to an attacker compromising these services. Make sure all default and predictableaccounts are disabled or deleted from the services.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

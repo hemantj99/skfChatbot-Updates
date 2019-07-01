@@ -1,0 +1,27 @@
+{
+  "id": "d36d7763-0d24-4fc8-af4a-b965633a8aff",
+  "name": "sol_External session hijacking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"As soon as a session is set for an authenticated user,the server should keep track of the IP address in which the user used when he started the session.When the server discovers a change in IP address, for instance when an attacker hijacks anusers session. The server then should deny access, destroy the session and redirect the\u0027hijacker\u0027 to the login page.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "fbe2db72-7f75-4f68-a482-4ebce9e171f6",
+  "name": "sol_Robots.txt",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Instead of the blacklisting method:Useragent: * Disallow: /squirrelmail/ Disallow: /admin/ Disallow: /modules/You should use a whitelisting method:Useragent: * Disallow: * Allow: /index.html Allow: /home.html"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

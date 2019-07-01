@@ -1,0 +1,35 @@
+{
+  "id": "df48d302-5238-42e8-8f23-0947a3f780cb",
+  "name": "Sol_Xee",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "\"Disable the possibility to fetch resources from an external source. This is normally done in the configuration of the used XML parser. \""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Disable the possibility to fetch resources from an external source. This is normally done in the configuration of the used XML parser. \""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "556c294a-419b-4222-a5d5-048a4f7dad5e",
+    "data": [
+      {
+        "text": "Provide me some Solution for HSTS preload",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "651890b2-2343-4847-acd6-16187a149550",
+    "data": [
+      {
+        "text": "Solution for HSTS preload",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2fecdca6-f98e-467a-9325-e06d93aaa750",
+    "data": [
+      {
+        "text": "How to mitigate HSTS preload ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5218845e-2879-4d83-8af0-beae8ce211b7",
+    "data": [
+      {
+        "text": "How to resolve HSTS preload ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1b1cad3d-9c02-4300-94fd-ea1ba2e881cb",
+    "data": [
+      {
+        "text": "How to solve HSTS preload ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "id": "085f9f5a-7270-423d-be06-bbfe84895bae",
+  "name": "Sol_hsts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"In order to be included on the HSTS preload list, your site must:1. Have a valid certificate (which must expire before 2016 if it uses SHA1).2. Redirect all HTTP traffic to HTTPS\\u2014i.e. be HTTPS only.3. Serve all subdomains over HTTPS, specifically including the www subdomain if a DNS record for that subdomain exists.4. Serve an HSTS header on the base domain: * Expiry must be at least eighteen weeks (10886400 seconds). * The includeSubdomains token must be specified. * The preload token must be specified. * If you are serving a redirect, that redirect must have the HSTS header, not the page it   redirects to.For more details on HSTS, please see RFC 6797. Note that the preload flag in the HSTS header is required to confirm and authenticate your submission to the preload list.An example valid HSTS header:    StrictTransportSecurity: maxage\u003d10886400; includeSubDomains; preloadAdding your website to the list: https://www.chromium.org/hsts      Source: https://wiki.mozilla.org/Privacy/Features/HSTS_Preload_List \""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

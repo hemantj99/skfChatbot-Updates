@@ -1,0 +1,27 @@
+{
+  "id": "8952855d-39c3-4a40-aa03-0d7290e46df8",
+  "name": "desc_Identifier based authorization",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"An application uses parameters in order to process data.These parameters can also be used to assign certain roles and retrieveContent corresponding with those parameters.For example:    www.target.com/index.php?loggedin\u003duserIn this situation the application will get content and subscribe user roles corresponding to the user parameter.    www.target.com/index.php?loggedin\u003dadminIn this situation the application will get content and subscribe user roles corresponding to the admin parameter.(Note: the above two links are no longer available.)\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

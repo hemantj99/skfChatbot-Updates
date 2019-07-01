@@ -1,0 +1,89 @@
+{
+  "id": "1afb055e-56b0-4dee-94d6-c162b22cbe83",
+  "parentId": "1445e594-851f-4072-86c6-b4dd3ff6b0cb",
+  "rootParentId": "ebe9b651-a881-48b3-b78b-e3e3e76c01f5",
+  "name": "checklist - ASVS Level 2 - yes",
+  "auto": true,
+  "contexts": [
+    "checklist-ASVSLevel2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checklist.checklist-custom.checklist-ASVSLevel2-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "payload": {
+            "facebook": {
+              "text": "1.0 Architecture, Design and Threat Modeling Requirements 2.0 Authentication Verification Requirements 3.0 Session Management Verification Requirements 4.0 Access Control Verification Requirements 5.0 Validation, Sanitization and Encoding Verification Requirements 6.0 Stored Cryptography Verification Requirements 7.0 Error Handling and Logging Verification Requirements 8.0 Error Handling and Logging Verification Requirements 9.0 Communications Verification Requirements 10.0 Malicious Code Verification Requirements 11.0 Business Logic Verification Requirements 12.0 File and Resources Verification Requirements 13.0 API and Web Service Verification Requirements 14.0 Configuration Verification Requirements",
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "1.0",
+                  "payload": "Architecture, Design and Threat Modeling Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "2.0",
+                  "payload": "Authentication Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "3.0",
+                  "payload": "Session Management Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "4.0",
+                  "payload": "Access Control Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "5.0",
+                  "payload": "Access Control Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "6.0",
+                  "payload": "Stored Cryptography Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "7.0",
+                  "payload": "a_Error Handling and Logging Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "8.0",
+                  "payload": "Error Handling and Logging Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "More",
+                  "payload": "More"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

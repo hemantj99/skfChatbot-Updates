@@ -1,0 +1,33 @@
+{
+  "id": "fd724b93-d937-4cad-872c-48c646f1a086",
+  "name": "sol_httprequestmethod",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "\"Verify that the application accepts only a defined set of HTTP request methods, such as GET and POST and unused methods are explicitly blocked/disabled. \""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

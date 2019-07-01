@@ -1,0 +1,33 @@
+{
+  "id": "840cb4e1-b92c-4159-9bac-8a198d70b2b5",
+  "name": "desc_XMLattacks",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Whenever you are using XML in your application there are a few possibilities for injections depending on how you are applying XML in your system.Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format which is both humanreadable and machinereadable. It is defined by the W3C\u0027s XML 1.0 Specification and by several other related specifications, all of which are free open standards. \","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

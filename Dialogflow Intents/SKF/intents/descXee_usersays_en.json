@@ -1,0 +1,86 @@
+[
+  {
+    "id": "cf8aa541-94c8-4018-8f7d-fcd964ddd8ed",
+    "data": [
+      {
+        "text": "Elaborate XXE injections ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "abdca9e7-a88d-4134-923e-233b811546de",
+    "data": [
+      {
+        "text": "XXE injections",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5efb757e-698f-453b-b043-42d2c8dec26e",
+    "data": [
+      {
+        "text": "Explain XXE injections ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0382e58d-cc5f-4187-a78a-48b2a9d613bd",
+    "data": [
+      {
+        "text": "XXE injections\n Tell me something about XXE injections ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cfb72e10-5cdf-45ed-ad6a-16d523ca2d6e",
+    "data": [
+      {
+        "text": "Tell me something about XXE injections ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3c2b8449-0619-4254-8052-c980f4ea82aa",
+    "data": [
+      {
+        "text": "What does XXE injections mean ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2a24dca1-dd16-442f-9738-79d69276c011",
+    "data": [
+      {
+        "text": "What is XXE injections ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

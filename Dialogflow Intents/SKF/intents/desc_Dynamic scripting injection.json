@@ -1,0 +1,29 @@
+{
+  "id": "c33b5c52-e7b7-4f08-9040-d4225e81b803",
+  "name": "desc_Dynamic scripting injection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"When user input is used to evaluate scripting code, highsecurity risks could be introduced. If the input is not properly escaped an attacker can inject his own script code and gain access to the server.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

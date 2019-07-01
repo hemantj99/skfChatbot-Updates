@@ -1,0 +1,33 @@
+{
+  "id": "d2d05f1e-5321-4ffc-b3d7-9035f41e06aa",
+  "name": "desc_Version management",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Whenever a programmer decides to use third party software, he should keep an eye implementing a proper version management methodology for this software. When hackers discover vulnerabilities they often publish these exploits online in order to push the developers of this software to fix their issues. As a result, when your software is not upgraded to the latest available version, script kiddies could easily compromise your application by following the exploit tutorials online, thus compromising your application."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "4fc57819-2837-4f1f-b8bc-4dda113f39c6",
+  "name": "sol_Clientsideinputvalidation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "\"First, there must be a client side input validation method as you would apply to the server side. This means you should also apply input rejection as well as typecasting and such. This is to prevent users from being attacked by XSS attacks which are undetectable by the server.Recommended knowledge base items: Positive validation method  Single input validation controls  Input rejection  Input validation \""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

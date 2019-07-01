@@ -1,0 +1,27 @@
+{
+  "id": "0a234356-13c7-4fe1-adf5-f36e38171431",
+  "name": "desc_Session ids should be generated with sufficient entropy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever session IDs are not generated with a sufficient entropy this could lead to asession collision or session hijacking. If an attacker can guess an authenticated user\u0027ssession identifier, he can take over the user\u0027s session.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

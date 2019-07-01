@@ -1,0 +1,27 @@
+{
+  "id": "138c2a53-9fdd-426e-b8a2-dcc9b2486a65",
+  "name": "desc_Include anti caching headers",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Anticaching headers have the ability to tell the browser, computer and proxies what information they may or may not store on the intermediate media"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

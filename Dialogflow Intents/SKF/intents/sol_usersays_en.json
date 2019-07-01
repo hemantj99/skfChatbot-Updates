@@ -1,0 +1,74 @@
+[
+  {
+    "id": "7cef90c2-2590-4b6f-873d-266cfed76625",
+    "data": [
+      {
+        "text": "How to get secured against LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17a72ff8-d1dd-400b-a934-fd5e2dd4b608",
+    "data": [
+      {
+        "text": "How to defend LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "169eb1fa-d64e-4205-a482-56b692e9af58",
+    "data": [
+      {
+        "text": "How to stop LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "efcf662d-cb31-43dd-8ced-43417e1361ba",
+    "data": [
+      {
+        "text": "How to mitigate LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "22f10844-1e67-4845-a04a-97728afe1e0b",
+    "data": [
+      {
+        "text": "How to resolve LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cd20e5c8-f5c9-4917-be78-25a8cf1aa5da",
+    "data": [
+      {
+        "text": "How to solve LDAP injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

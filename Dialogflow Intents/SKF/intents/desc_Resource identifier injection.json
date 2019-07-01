@@ -1,0 +1,27 @@
+{
+  "id": "16e6654c-0fb8-4e1f-81c0-728daea000af",
+  "name": "desc_Resource identifier injection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"A resource identifier injection basically means that the attacker can determine whichresources are loaded into the web application.An attacker could thus influence the operation of the web application and redirect usersto other websites. This attack consists of changing resource identifiers used by anapplication in order to perform a malicious task. When an application permits a userinput to define a resource, like a file name or port number,this data can be manipulated to execute or access different resources.In order to be properly executed, the attacker must have the possibility to specify aresource identifier through the application form and the application must permit the execution.The resource type affected by user input indicates the content type that may be exposed.For example, an application that permits input of special characters like period, slash,and backlash is risky when used in methods that interact with the file system.The resource injection attack focuses on accessing other resources than the localfilesystem, which is different attack technique known as a Path Manipulation attack.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

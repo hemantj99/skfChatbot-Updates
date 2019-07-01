@@ -1,0 +1,29 @@
+{
+  "id": "eac68b8d-6581-411f-a318-49a78df19cad",
+  "name": "desc_Automated spamming via feedback scripts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"A hacker must not gain the ability to abuse an applications email functionality bymeans of scripts which sends automated spamming mails.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

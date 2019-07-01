@@ -1,0 +1,27 @@
+{
+  "id": "65238178-1d93-4137-bea1-84cf6f94d58b",
+  "name": "desc_Session IDs do not timeout (idl)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"All sessions should implement an idle or inactivity timeout.This timeout defines the amount of time a session will remain active in case there is noactivity in the session, closing and invalidating the session upon the defined idle periodsince the last HTTP request received by the web application for a given session ID.The idle timeout limits the chances an attacker has to guess and use a valid session IDfrom another user. However, if the attacker is able to hijack a given session,the idle timeout does not limit the attacker\u0027s actions, as he can generate activity onthe session periodically to keep the session active for longer periods of time.Session timeout management and expiration must be enforced on the serverside. If the client isused to enforce the session timeout, for example using the session token or other clientparameters to track time references (e.g. number of minutes since login time), an attackercould manipulate these to extend the session duration.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

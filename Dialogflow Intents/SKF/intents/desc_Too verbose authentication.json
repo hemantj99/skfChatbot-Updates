@@ -1,0 +1,27 @@
+{
+  "id": "df765261-6c7f-4606-9561-257d606e4df5",
+  "name": "desc_Too verbose authentication",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The error messages that are displayed when a user fails to login into an application should be selected with caution. When this error message gives away too much information, this information can be exploited by a hacker."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

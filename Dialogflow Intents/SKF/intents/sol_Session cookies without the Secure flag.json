@@ -1,0 +1,27 @@
+{
+  "id": "e2fdf07d-12cf-47e2-b0b7-f356964c55e9",
+  "name": "sol_Session cookies without the Secure flag",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"When creating a session cookie which is sent over an encrypted connectionyou should set the secure flag. The Secure flag should be set during every setcookie.This will instruct the browser to never send the cookie over HTTP.The purpose of this flag is to prevent the accidental exposure of a cookie value if a userfollows an HTTP link.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

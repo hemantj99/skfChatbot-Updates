@@ -1,0 +1,27 @@
+{
+  "id": "472f094a-6dcb-4c8f-8b92-42decd633da4",
+  "name": "sol_Regular expression injection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Do not use userinput without escaping in a regular expression \\\"regex pattern\\\", Since this could lead to serious security vulnerabilities. \""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

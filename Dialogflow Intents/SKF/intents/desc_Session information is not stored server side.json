@@ -1,0 +1,27 @@
+{
+  "id": "4cfabb64-f6b6-44cb-a6ce-6fb5ac02853c",
+  "name": "desc_Session information is not stored server side",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever session information is not stored on the serverside an attacker could easily tamperand manipulate these values. This is always a bad idea and you should not do this!\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "144608c4-7a1f-4fb3-8f6c-fc74478b2ac9",
+    "data": [
+      {
+        "text": "How to get secured against Include X XSS ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5e9ac761-dd59-409c-8406-127f6fee13dd",
+    "data": [
+      {
+        "text": "How to defend Include X XSS ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7c3161c3-7dbb-4c1f-ae02-c41d1d921469",
+    "data": [
+      {
+        "text": "How to stop Include X XSS ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7da5114e-7f38-4cf0-af28-908b738a9941",
+    "data": [
+      {
+        "text": "How to mitigate Include X XSS ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d5143037-d44b-4ea4-a7d8-120f88953a36",
+    "data": [
+      {
+        "text": "How to resolve Include X XSS ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b649e071-7cd8-4679-a1ac-b15692e688af",
+    "data": [
+      {
+        "text": "How to solve Include X XSS ?\n How to resolve Include X XSS ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

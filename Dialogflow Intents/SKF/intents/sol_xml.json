@@ -1,0 +1,36 @@
+{
+  "id": "fd00d0b3-1a48-4afc-b8d7-8375dfb20b93",
+  "name": "sol_xml",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"In addition to the existing input validation, define a positive approach which escapes/encodes characters that can be interpreted as XML. At a minimum this includes the following: \u003c \u003e / \\\" \u0027 \""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

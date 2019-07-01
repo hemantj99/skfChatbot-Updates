@@ -1,0 +1,74 @@
+[
+  {
+    "id": "f4233f06-9155-40ea-a1c5-a3e725da8add",
+    "data": [
+      {
+        "text": "How to get secured against Prepared statements and query parameterization ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d23c6abd-f49c-4e4a-b72c-8d81e58f8e83",
+    "data": [
+      {
+        "text": "How to defend Prepared statements and query parameterization ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "62db92b6-bab7-4d03-b006-965ef2f6e2fd",
+    "data": [
+      {
+        "text": "How to stop Prepared statements and query parameterization ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "62c6750e-e0e6-4324-a0c4-551dd1194029",
+    "data": [
+      {
+        "text": "How to mitigate Prepared statements and query parameterization ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c46bb90f-52b0-4c46-9208-e663aaadb8d1",
+    "data": [
+      {
+        "text": "How to resolve Prepared statements and query parameterization ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "91d4fc53-fffe-48eb-ad24-5fcf6215dbc3",
+    "data": [
+      {
+        "text": "How to solve Prepared statements and query parameterization ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

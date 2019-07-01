@@ -1,0 +1,27 @@
+{
+  "id": "e8f859eb-4a26-4aa3-a5f3-609180e1644b",
+  "name": "desc_Unproven cryptographic algorithms",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"The encryption techniques used in the application must be known and proven methods.When there is a selfmade hashing algorithm developed, it is likely to containvulnerabilities due to mathflaws resulting in encryption which can be broken.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

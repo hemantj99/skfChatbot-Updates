@@ -1,0 +1,29 @@
+{
+  "id": "1f0a3406-7846-4023-9a79-ccfdf5ee14e0",
+  "name": "desc_Denial of service by locking out accounts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Whenever the opportunity to log into the application is offered, it should not lock out accounts. A hacker could abuse this function to make the application deny access towards its power users."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6168eace-311d-4996-bddc-409953cfa7d5",
+  "name": "desc_Insecure datastorage",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever sensitive data is stored cleartext, this data is compromised as soon as itfalls into the hands of an attacker.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

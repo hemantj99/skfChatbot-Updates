@@ -1,0 +1,27 @@
+{
+  "id": "5eada39f-91cd-47d3-ba8a-6f3d89dc07df",
+  "name": "sol_Session ids should be generated with sufficient entropy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"The WebLogic deployment descriptor should specify a session identifier length of atleast 128 bits. A shorter session identifier leaves the application open tobruteforce session guessing attacks.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

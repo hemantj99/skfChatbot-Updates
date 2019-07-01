@@ -1,0 +1,30 @@
+{
+  "id": "2b9fdaec-8f55-4f3a-8c51-a3768de5b22c",
+  "name": "sol_Unnecessary features enabled or installed",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Make sure all features and software available on the application/server are necessary forapplication to work proper. If not, uninstall or disable these services.\""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

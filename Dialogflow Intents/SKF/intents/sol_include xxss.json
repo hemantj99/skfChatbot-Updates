@@ -1,0 +1,27 @@
+{
+  "id": "c68be316-44b9-4886-99de-951b8d965f2a",
+  "name": "sol_include xxss",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"These headers are also known as the: XXSSProtection: 1; mode\u003dblock and provide protection against XSS attacks when implemented in the application or webserver.NOTE:This header only protects against some reflected XSS attacks. This is no substitute for normal escaping and input filtering and sanitization.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

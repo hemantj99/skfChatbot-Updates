@@ -1,0 +1,27 @@
+{
+  "id": "92eddb81-0820-4357-8b14-bac0a151deb3",
+  "name": "desc_Prepared statements and query parameterization",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"All SQL queries, HQL, OSQL, NOSQL and stored procedures, related to stored procedures should beprotected by the use of query parameterization.If an attacker can inject malicious code into these queries and gain the ability tomanipulate them and can withdraw, update and delete data which is stored on thetarget database.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

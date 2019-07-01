@@ -1,0 +1,29 @@
+{
+  "id": "1a336cd7-0ec3-42f7-9bec-712cd83385ce",
+  "name": "desc",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever user generated session IDs are not rejected by the server,an attacker could change the session credentials given by the server on the targetscomputer into an easy to remember value.The attacker then changes his own session credentials with the easily to remembervalue he used on the target\u0027s computer. Through this,  the attacker could do a session hijackingon the targets current session.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

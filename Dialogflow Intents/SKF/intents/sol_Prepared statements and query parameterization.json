@@ -1,0 +1,27 @@
+{
+  "id": "4abcd222-98e9-4ca4-a861-c6ac9228dac6",
+  "name": "sol_Prepared statements and query parameterization",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"The use of prepared statements and parameterized queries is how all developers shouldfirst be taught how to write database queries. They are simple to write, and easier tounderstand than dynamic queries. Parameterized queries force the developer to first defineall the SQL code, and then pass in each parameter to the query later. This coding styleallows the database to distinguish between code and data, regardless of what user inputis supplied.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

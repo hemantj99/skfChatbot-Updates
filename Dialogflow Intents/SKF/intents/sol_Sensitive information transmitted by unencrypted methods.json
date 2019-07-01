@@ -1,0 +1,27 @@
+{
+  "id": "d37da241-8de4-4d94-aff9-3f062924e8f0",
+  "name": "sol_Sensitive information transmitted by unencrypted methods",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"All sensitive information should always be sent by encrypted methodssuch as HTTPS(TLS) connections.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

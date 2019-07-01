@@ -1,0 +1,27 @@
+{
+  "id": "5dfa39a5-f0f2-4e82-af45-5ec3244c7dcb",
+  "name": "sol_Security settings in your development frameworks",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Make sure all your security settings in your development framework are set to secure values.This can be checked by using hardening guides.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

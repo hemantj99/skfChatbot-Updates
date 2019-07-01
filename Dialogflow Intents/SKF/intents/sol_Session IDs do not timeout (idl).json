@@ -1,0 +1,27 @@
+{
+  "id": "edf30787-91da-4ab0-80c6-c8c3157edf04",
+  "name": "sol_Session IDs do not timeout (idl)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"All user sessions should timeout based on logic serverside in order to decrease anattackers attack vector on the user session.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

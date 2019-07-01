@@ -1,0 +1,27 @@
+{
+  "id": "967eed7b-b609-406f-9012-0eb3b6ff2b27",
+  "name": "desc_Session cookies without the HttpOnly flag",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"An HttpOnly flag is an option that can be set when creating a cookie. This flag ensures that the cookie cannot be read or edited by JavaScript. This ensures an attacker cannot steal this cookie as a crosssite scripting vulnerability is present in the application.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

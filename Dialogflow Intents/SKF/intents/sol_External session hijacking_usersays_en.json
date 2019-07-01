@@ -1,0 +1,74 @@
+[
+  {
+    "id": "f617bbef-6040-44d9-94c9-62f3f0801569",
+    "data": [
+      {
+        "text": "How to get secured against External session hijacking ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "30f6cc05-08a6-4d3e-ad6f-948f5c7257f8",
+    "data": [
+      {
+        "text": "How to defend External session hijacking ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c268d42f-626f-4b06-9b30-3713b6ba646e",
+    "data": [
+      {
+        "text": "How to stop External session hijacking ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9ec9571d-1acb-4739-922c-bb582b90769d",
+    "data": [
+      {
+        "text": "How to mitigate External session hijacking ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c9a594f2-3810-4c00-bf8c-18e010662b7b",
+    "data": [
+      {
+        "text": "How to resolve External session hijacking ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "76ec878b-8185-4da1-be6a-8a706fbb9514",
+    "data": [
+      {
+        "text": "How to solve External session hijacking ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

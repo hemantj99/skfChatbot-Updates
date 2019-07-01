@@ -1,0 +1,134 @@
+[
+  {
+    "id": "4f26f587-06f6-44f9-b78d-57a67dc3cb8f",
+    "data": [
+      {
+        "text": "Do you have information about sensitive information stored in cookies ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02cdd132-f4bb-4569-902b-a89ea3bbaba3",
+    "data": [
+      {
+        "text": "I want to know about XSS sensitive information stored in cookies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc7e4b26-1d50-4adb-a1af-06fbad4130e8",
+    "data": [
+      {
+        "text": "What can you tell me about sensitive information stored in cookies ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e26d218c-bc16-43b8-a8c3-156683100852",
+    "data": [
+      {
+        "text": "What do you know about sensitive information stored in cookies ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "51ac0f53-8a9e-4e9f-b30e-f9b6dfc0bab4",
+    "data": [
+      {
+        "text": "Can you tell me about sensitive information stored in cookies ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0ea17c6a-82d8-4e4a-a37c-97ae139481b2",
+    "data": [
+      {
+        "text": "Elaborate sensitive information stored in cookies ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d80d10b7-c6db-4cbe-ac0b-71d9c403ce42",
+    "data": [
+      {
+        "text": "Explain sensitive information stored in cookies ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fdd8dc0f-4f66-4aed-ade4-17221a4369ea",
+    "data": [
+      {
+        "text": "sensitive information stored in cookies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8226ec18-3c37-424b-80a2-1f573958fe88",
+    "data": [
+      {
+        "text": "Tell me something about sensitive information stored in cookies ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05452620-bd99-46a9-992c-dd2f0f1b73dc",
+    "data": [
+      {
+        "text": "What does sensitive information stored in cookies mean ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "570209e8-f299-4479-8b5c-ca01b469c777",
+    "data": [
+      {
+        "text": "What is sensitive information stored in cookies ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

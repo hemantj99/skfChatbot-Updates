@@ -1,0 +1,27 @@
+{
+  "id": "7bbb8c96-67da-413e-95bf-db1a59352178",
+  "name": "sol_Dynamic scripting injection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Do not use direct userinput in the dynamic scripting function. You should firstuse an input validation or encoding function on the user submitted data to clean andsanitize the input against malicious intent.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

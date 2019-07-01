@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c586ce96-7e0b-41dc-aee4-a2ea1a7306e8",
+    "data": [
+      {
+        "text": "How to get secured against Session ids should be generated with sufficient entropy ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1e915f73-0ac7-4799-a5a3-6f7e4a03bf9b",
+    "data": [
+      {
+        "text": "How to defend Session ids should be generated with sufficient entropy ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bced372c-9b45-47ee-9159-3759122e9923",
+    "data": [
+      {
+        "text": "How to stop Session ids should be generated with sufficient entropy ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be0ca0ef-1d15-49de-afde-eeb0e29169cf",
+    "data": [
+      {
+        "text": "How to mitigate Session ids should be generated with sufficient entropy ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1b9a7f95-e119-4c18-8eba-96a9bc258417",
+    "data": [
+      {
+        "text": "How to resolve Session ids should be generated with sufficient entropy ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70fd3852-a2d1-4533-987b-223f93019f70",
+    "data": [
+      {
+        "text": "How to solve Session ids should be generated with sufficient entropy ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

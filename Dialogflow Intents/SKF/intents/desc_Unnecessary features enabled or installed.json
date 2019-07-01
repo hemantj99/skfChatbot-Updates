@@ -1,0 +1,27 @@
+{
+  "id": "0d705734-9e96-4bab-9a0a-b1fe7b7c4564",
+  "name": "desc_Unnecessary features enabled or installed",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever there are unnecessary features enabled or installed this could increasethe attack surface of an attacker which could lead to serious danger such as XXE/CMD/XSS injections.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

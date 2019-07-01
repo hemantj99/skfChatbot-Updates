@@ -1,0 +1,27 @@
+{
+  "id": "6f19ea3b-992e-428d-a3cb-8e54b65387a4",
+  "name": "sol_ Include X Content Type Options header",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"These headers are also known as the: XContentTypeOptions: nosniff;and provide protection against Mime content type attacks when implemented in theapplication or webserver.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

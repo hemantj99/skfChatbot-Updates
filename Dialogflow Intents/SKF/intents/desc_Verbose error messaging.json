@@ -1,0 +1,27 @@
+{
+  "id": "cf363560-8ec0-424a-8bf9-5d9640473554",
+  "name": "desc_Verbose error messaging",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "In the development stage of an application, programmers add debugging information in order to debug certain functionalities. However, this stage often displays sensitive technical information. If an attacker gains this technical information, he can learn more about the operation of the application. The application should always display userfriendly messages only when put in a live environment."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

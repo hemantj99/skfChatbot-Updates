@@ -1,0 +1,35 @@
+{
+  "id": "14f5d8cc-5d16-40e6-a589-d0ae7b371353",
+  "name": "sol_SQLinjectionColumntruncation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "\"On critical places where unique values are enforced and expected, such as usernames in order to authorize or distribute certain privileges. The users submit should be checked on the server side in order to verify if it does not exceed the limit set in your database. \""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "0c8aac8b-07e1-4664-b7c8-91954a2f0ae1",
+  "name": "sol_Command injection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Userinput that is used in a shell command should not contain dangerous characters. A blacklist of characters is not a good option because it may be difficult to think of all of the characters to validate against. A white list containing only allowable characters should be created to validate the userinput."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

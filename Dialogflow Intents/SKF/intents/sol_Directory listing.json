@@ -1,0 +1,27 @@
+{
+  "id": "92ae5b81-4536-46e2-9701-d5abad2e024c",
+  "name": "sol_Directory listing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Different types of servers require a different type of approach in order to disabledirectory listing. For instance: Apache uses a .htacces in order to disable directory listing.As for iis7, directory listing is disabled by default.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

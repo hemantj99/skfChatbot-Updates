@@ -1,0 +1,27 @@
+{
+  "id": "2f53d41e-9f5a-491f-a071-1be1308ee371",
+  "name": "desc_Insecure transmission of session cookies",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"If the session cookies are sent over an unencrypted connection,they should be withdrawn immediately.These cookies are not to be trusted anymore as a hacker may have captured their values.\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

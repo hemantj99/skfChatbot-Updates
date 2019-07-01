@@ -1,0 +1,36 @@
+{
+  "id": "088582c8-e039-4ebc-a0ea-dbbf6493ec9f",
+  "name": "checklist - ASVS Level 1 - 11.0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "11.0 Business Logic Verification Requirements\n11.1.1 Verify the application will only process business logic flows for the same user in sequential step order and without skipping steps.\n11.1.2 Verify the application will only process business logic flows with all steps being processed in realistic human time, i.e. transactions are not submitted too quickly.\n11.1.3 Verify the application has appropriate limits for specific business actions or transactions which are correctly enforced on a per user basis.\n11.1.4 Verify the application has sufficient anti-automation controls to detect and protect against data exfiltration, excessive business logic requests, excessive file uploads or denial of service attacks.\n11.1.5 Verify the application has business logic limits or validation to protect against likely business risks or threats, identified using threat modelling or similar methodologies.\n11.1.6 Verify the application does not suffer from \"time of check to time of use\" (TOCTOU) issues or other race conditions for sensitive operations.\n11.1.8 Verify the application has configurable alerting when automated attacks or unusual activity is detected."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

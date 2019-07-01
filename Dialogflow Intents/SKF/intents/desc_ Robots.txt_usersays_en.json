@@ -1,0 +1,116 @@
+[
+  {
+    "id": "bf872cda-8036-4fc2-8f5b-35b777381249",
+    "data": [
+      {
+        "text": "Do you have information about Robots.txt ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "26e53a11-6896-4bdd-a3e2-e2c477f889e7",
+    "data": [
+      {
+        "text": "I want to know about XSS Robots.txt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "577ebe61-7203-4cb2-a196-447bfdc76c39",
+    "data": [
+      {
+        "text": "What can you tell me about Robots.txt ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "679b5afc-d380-4da1-b707-0475ce396d0e",
+    "data": [
+      {
+        "text": "What do you know about Robots.txt ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8470d62-5410-4d67-a22e-f8b82a05e9cb",
+    "data": [
+      {
+        "text": "Can you tell me about Robots.txt ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6e6a64a5-cc41-47f2-b134-57dc8bc0144c",
+    "data": [
+      {
+        "text": "Robots",
+        "alias": "geo-country-code",
+        "meta": "@sys.geo-country-code",
+        "userDefined": true
+      },
+      {
+        "text": ".txt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dad490ce-f9af-4e21-aa0d-ad133780f0e5",
+    "data": [
+      {
+        "text": "Elaborate Robots.txt ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d756d884-9dab-40d1-a6c0-45b3723ba333",
+    "data": [
+      {
+        "text": "What does Robots.txt mean ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "74e02c6a-b8d7-42fc-a8d6-92583bb0a077",
+    "data": [
+      {
+        "text": "What is Robots.txt ?\n What does Robots.txt mean ?\n Tell me something about Robots.txt ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

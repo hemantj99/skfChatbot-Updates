@@ -1,0 +1,27 @@
+{
+  "id": "9f63039b-3c12-4fb8-b9c9-b7e1928c6b0e",
+  "name": "desc_Sensitive information stored in cookies",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sensitive data should not be stored in a cookie,because the cookie is also used on the clientside and is adaptable thus making its content readable. A hacker could gain access to a cookie through cross site scripting attacks and gain the sensitive information stored in the targets cookie."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

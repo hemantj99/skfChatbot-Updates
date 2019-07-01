@@ -1,0 +1,38 @@
+{
+  "id": "1d747d7c-33aa-4eaa-8055-602737436369",
+  "name": "desc_ Robots.txt",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "96c689ea-d9db-4412-8d51-7cdc04d2fd9d",
+          "required": false,
+          "dataType": "@sys.geo-country-code",
+          "name": "geo-country-code",
+          "value": "$geo-country-code",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Each site uses a robots.txt file which allows search engines to provide information. The robots.txt determines what pages may or may not be indexed by google or yahoo etc. However, a common mistake made by programmers is applying a blacklisting method causing the application displaying sensitive information to attackers."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

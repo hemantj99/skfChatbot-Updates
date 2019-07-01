@@ -1,0 +1,27 @@
+{
+  "id": "de2ba657-26ab-45b4-a67d-d770b1d8655b",
+  "name": "desc_Include X XSS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "This header enables the Crosssite scripting (XSS) filter built into most recent web browsers. It is usually enabled by default anyway, so the role of this header is to reenable the filter for this particular website if it was disabled by the user. This header is supported in IE 8 and in Chrome 4."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "4de0f0c0-3101-4f24-b360-b6b5cbdbba6e",
+  "name": "desc_Cross site request forgery",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "CrossSite Request Forgery (CSRF) is a type of attack that occurs when a malicious Web site, email, blog, instant message, or program causes a users Web browser to perform an unwanted action on a trusted site for which the user is currently authenticated.The impact of a successful crosssite request forgery attack is limited to the capabilities exposed by the vulnerable application.For example, this attack could result in a transfer of funds, changing a password, or purchasing an item in the users context. In effect, CSRF attacks are used by an attacker to make a target system perform a function (funds Transfer, form submission etc.) via the targets browser without knowledge of the target user at least until the unauthorised function has been committed."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

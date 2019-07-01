@@ -1,0 +1,62 @@
+[
+  {
+    "id": "9c696352-d4aa-45e0-b735-a699a7118200",
+    "data": [
+      {
+        "text": "Provide me some Solution for HTTP request methods",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9154e02a-d325-4485-b5f4-1d2e107b74ec",
+    "data": [
+      {
+        "text": "Solution for HTTP request methods",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "51e85747-a710-415b-bac5-86570594f9f9",
+    "data": [
+      {
+        "text": "How to mitigate HTTP request methods ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1ff1906f-5dbb-4955-8924-423afe6cc52b",
+    "data": [
+      {
+        "text": "How to resolve HTTP request methods ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4a88b895-6663-4f09-97de-4dcf14295e0a",
+    "data": [
+      {
+        "text": "How to solve HTTP request methods ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
