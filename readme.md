@@ -21,7 +21,7 @@ You can access SKF Telegram bot on the following link:
 
 #### [Facebook bot](m.me/869613130068384)
 
--It is in a test version...will be Released soon
--If you want to check this out, Message me...I will add you as a tester.
+- It is in a test version...will be Released soon
+- If you want to check this out, Message me... I will add you as a tester.
 
 ![image](screenshots/facebook_test.png)
