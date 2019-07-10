@@ -17,7 +17,8 @@ You can access SKF Telegram bot on the following link:
 
 #### [Telegram bot](https://web.telegram.org/#/im?p=@skf_chatbot)
 
-![image](screenshots/1.png)(screenshots/telegram_bot.png)
+![image](screenshots/1.png)
+![image](screenshots/telegram_bot.png)
 
 #### [Facebook bot](m.me/869613130068384)
 
