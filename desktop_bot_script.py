@@ -7,8 +7,7 @@ from google.protobuf.json_format import MessageToJson
 from google.protobuf.struct_pb2 import Struct, Value
 
 import dialogflow
-context=dialogflow.types.context_pb2.Context(name='projects/skf-gqvclo/agent/sessions/637996ed-90a8-4900-83b0-b5f1f9a$
-
+context=dialogflow.types.context_pb2.Context(name='projects/skf-gqvclo/agent/sessions/637996ed-90a8-4900-83b0-b5f1f9a9xxxx/contexts/prueba_dialog_context')
 credentials_file = os.path.expanduser('skfkey.json')
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credentials_file
 project_id = format(json.load(open(credentials_file))['project_id'])
