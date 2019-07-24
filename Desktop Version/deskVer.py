@@ -19,7 +19,11 @@ session = session_client.session_path(project_id, str(uuid.uuid4()))
 
 window = Tk()
 window.title('SKF-CHATBOT')
-messages = Text(window)
+# Vertical (y) Scroll Bar
+scroll = Scrollbar(window)
+scroll.pack(side=RIGHT, fill=Y)
+
+messages = Text(window, wrap=WORD, yscrollcommand=scroll.set)
 messages.pack()
 
 input_user = StringVar()
