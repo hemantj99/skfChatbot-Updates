@@ -1,0 +1,33 @@
+{
+  "id": "1cde5329-dc58-4945-887c-04b93fb9cc29",
+  "parentId": "a7809e30-8468-4e1a-b22d-d1c9b0f88190",
+  "rootParentId": "a7809e30-8468-4e1a-b22d-d1c9b0f88190",
+  "name": "code for encoder - ruby",
+  "auto": true,
+  "contexts": [
+    "codeforencoder-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "codeforencoder.codeforencoder-ruby",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "\"content\": \" Encoder\\n\\n\\n Example:\\n\\n\\n    // This is the encoder method for whenever you have to allow certain\\n    // possibly dangerous characters into your code for i.e names such as O\u0027reily\\n\\n    class Encoder\\n      // include SanitizeHelper for the implementation of sanitize method\\n      include ActionView::Helpers::SanitizeHelper\\n      // and this one to provide sign_out\\n      include Devise::Controllers::SignInOut\\n\\n      PATTERN \u003d \u0027^[azAZ09%s]+$\u0027.freeze\\n\\n      attr_reader :store\\n\\n      // If your application is running on multiple processes or machines make sure you use a keyvalue backend for Rails cache\\n      // like Redis or Memcached. If you\u0027re using Unicorn/Passenger/Puma in clustered mode you\u0027re already running multiple processes!\\n      // Alternatively you can provide your own implementation backed by either a keyvalue store or just your database.\\n      def initialize(store \u003d Rails.cache)\\n        @store \u003d store\\n      end\\n\\n      def encode(user, input, allowed_characters)\\n        pattern \u003d PATTERN % allowed_characters\\n\\n        regex \u003d Regexp.compile(pattern)\\n\\n        unless input \u003d~ regex\\n          cache_key \u003d cache_key(user)\\n          store.increment(cache_key)\\n\\n          // Every bad input validation has to be logged.\\n          Rails.logger.warn \\\"//{user.id} \u003e Bad user input\\\"\\n\\n          if store.fetch(cache_key) \u003e\u003d 3\\n            sign_out(user)\\n            store.delete(cache_key)\\n          end\\n\\n          return false\\n        end\\n\\n        sanitize(input)\\n      end\\n\\n      private\\n\\n      def cache_key(user)\\n        \\\"//{user.cache_key}/input_counter\\\"\\n      end\\n    end\\n\","
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

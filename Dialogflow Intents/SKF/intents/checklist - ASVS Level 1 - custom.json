@@ -1,0 +1,91 @@
+{
+  "id": "67d83cf7-94de-4aeb-ae1d-6e7e6c6e85db",
+  "parentId": "be9c576d-9123-463d-9bea-ff3d39ec0368",
+  "rootParentId": "ebe9b651-a881-48b3-b78b-e3e3e76c01f5",
+  "name": "checklist - ASVS Level 1 - custom",
+  "auto": true,
+  "contexts": [
+    "checklist-ASVSLevel1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checklist.checklist-custom.checklist-ASVSLevel1-custom",
+      "affectedContexts": [
+        {
+          "name": "checklist-ASVSLevel1-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "slack",
+          "lang": "en",
+          "payload": {
+            "slack": {
+              "text": "2.0 Authentication Verification Requirements 3.0 Session Management Verification Requirements 4.0 Access Control Verification Requirements 5.0 Validation, Sanitization and Encoding Verification Requirements 6.0 Stored Cryptography Verification Requirements 7.0 Error Handling and Logging Verification Requirements 8.0 Error Handling and Logging Verification Requirements 9.0 Communications Verification Requirements 10.0 Malicious Code Verification Requirements 11.0 Business Logic Verification Requirements 12.0 File and Resources Verification Requirements 13.0 API and Web Service Verification Requirements 14.0 Configuration Verification Requirements",
+              "attachments": [
+                {
+                  "text": "choose one",
+                  "fallback": "You are unable to choose a game",
+                  "callback_id": "wopr_game",
+                  "color": "#3AA3E3",
+                  "attachment_type": "default",
+                  "actions": [
+                    {
+                      "name": "text",
+                      "text": "5.0",
+                      "type": "button",
+                      "value": "5.0 Validation, Sanitization and Encoding Verification Requirements"
+                    },
+                    {
+                      "name": "text",
+                      "text": "6.0",
+                      "type": "button",
+                      "value": "6.0 Stored Cryptography Verification Requirements"
+                    },
+                    {
+                      "name": "text",
+                      "text": "7.0",
+                      "type": "button",
+                      "value": "7.0 Error Handling and Logging Verification Requirements"
+                    },
+                    {
+                      "name": "text",
+                      "text": "8.0",
+                      "type": "button",
+                      "value": "8.0 Error Handling and Logging Verification Requirements"
+                    },
+                    {
+                      "name": "text",
+                      "text": "More",
+                      "type": "button",
+                      "value": "more_2"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "0ceb7d84-eca9-476a-8810-efb6289c4ab7",
+  "name": "desc_Username enumeration",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever an application generates an error like:\\\"This username already exists\\\"An attacker could enumerate these usernames, enlarging his chance for a successfulbruteforce attack. Same goes for \\\"Password forget\\\"functions.Whenever an user forgets his password, make him fill in his email addressrather than an username.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

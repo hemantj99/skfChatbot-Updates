@@ -1,0 +1,30 @@
+{
+  "id": "6b07e0a3-f531-4b00-913c-600e70c7a9f1",
+  "name": "desc_Verify that the session id is never disclosed",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"If the session id is disclosed in the URL the users session ID can be easily obtained byan attacker and could leak through the referrer header towards other severs. Also wheneverthe session ID is disclosed in the URL the possibility also arises to perform otherattacks like session fixation which could lead to session hijacking.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

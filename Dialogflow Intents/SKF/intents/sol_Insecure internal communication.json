@@ -1,0 +1,30 @@
+{
+  "id": "e13b3949-932d-4378-a05e-560198f69b24",
+  "name": "sol_Insecure internal communication",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Use TLS encrypted data lines for all internal communication channels.Also, your infrastructure should not traverse unencrypted or weakly encrypted links. Because if so, all your data\u0027s integrity and confidentiality will be lost.\""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

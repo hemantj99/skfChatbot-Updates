@@ -1,0 +1,30 @@
+{
+  "id": "a69b5205-328b-4750-9043-d3f297470d53",
+  "name": "custom git 2.0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "2.1 Verify all pages and resources by default require authentication except those specifically intended to be public.\n2.2 Verify all authentication controls are enforced on the server side"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

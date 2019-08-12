@@ -1,0 +1,30 @@
+{
+  "id": "238ef18b-8b2b-4715-aa38-0d40516fc5a9",
+  "name": "desc_Ensure overall security",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Some parts of the application at first sight might seem to acquire a higher level ofsecurity than i.e unauthorized/public parts of the application.This however, is not true since breaching public parts could also lead to an attackercompromising the application or other users accounts.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

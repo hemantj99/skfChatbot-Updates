@@ -1,0 +1,30 @@
+{
+  "id": "55ee0780-0613-426e-a125-9ba96c6e5ca4",
+  "name": "desc_The audit log must include a priority system",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"If the audit log does not contain a clear priority system, it will be difficult toprioritize different types of process failures.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

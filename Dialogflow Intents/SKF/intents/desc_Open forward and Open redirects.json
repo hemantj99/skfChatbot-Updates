@@ -1,0 +1,30 @@
+{
+  "id": "81acb20b-5cea-43de-ae9e-5937d0676aca",
+  "name": "desc_Open forward and Open redirects",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Unvalidated redirects and forwards are possible when a web application accepts untrustedinput that could cause the web application to redirect the request to a URL containedwithin the untrusted input. By modifying untrusted URL input to a malicious site, an attackermay successfully launch a phishing scam and steal user credentials. Because the servername in the modified link is identical to the original site, phishing attempts may havea more trustworthy appearance. Unvalidated redirect and forward attacks can also be usedto maliciously craft a URL that would pass the application\u0027s access control check andthen forward the attacker to privileged functions that they would normally not be ableto access.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

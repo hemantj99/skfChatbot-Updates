@@ -1,0 +1,29 @@
+{
+  "id": "dd26090c-e445-4ad5-a04d-337e62fdd7ef",
+  "name": "sol_Sensitive information stored alongside the source code",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Search your source code for comments which contains possible usercredentials.You should also verify that there are no secrets and API keys are included in thesource code, or end up within the resulting binary.This also applies to providing information about business logic and other critically sensitiveinformation. Verify that there is no sensitive business logic, secret keys or otherproprietary information in client side code.\""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

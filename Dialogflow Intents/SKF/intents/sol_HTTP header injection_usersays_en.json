@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01378354-30df-41fb-ab7d-0c9fc4336a8c",
+    "data": [
+      {
+        "text": "How to get secured against HTTP header injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e2830fb7-3085-4b34-9d72-1fd136c82298",
+    "data": [
+      {
+        "text": "How to defend HTTP header injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2a44deb4-5a10-4f2d-a5a9-62ffcd9dac77",
+    "data": [
+      {
+        "text": "How to stop HTTP header injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "52807216-dfa5-410b-a6c1-c8ffe9ee4ac2",
+    "data": [
+      {
+        "text": "How to mitigate HTTP header injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09b9ddbc-accd-4407-8117-42152da4e366",
+    "data": [
+      {
+        "text": "How to resolve HTTP header injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a1fd70e7-901a-4969-a7fd-3d8bd935ffcb",
+    "data": [
+      {
+        "text": "How to solve HTTP header injection ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

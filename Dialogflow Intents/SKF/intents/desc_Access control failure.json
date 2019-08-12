@@ -1,0 +1,30 @@
+{
+  "id": "fa827351-4641-4506-a7bd-028c3a4a207c",
+  "name": "desc_Access control failure",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Handling errors securely is a key aspect of secure coding. There are two types of errorsthat deserve special attention. The first is exceptions that occur in the processing of asecurity control itself. It is important that these exceptions do not enable behaviorthat the countermeasures would normally not allow. As a developer, you should considerthat there are generally three possible outcomes from a securitymechanism:  allow the operation disallow the operation exception in general you should design your security mechanism so that a failure will follow the sameexecution path as disallowing the operation.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

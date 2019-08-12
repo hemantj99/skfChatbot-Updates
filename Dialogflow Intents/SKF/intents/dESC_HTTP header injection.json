@@ -1,0 +1,30 @@
+{
+  "id": "a5482452-ea27-405b-9867-0e2bdb5cf20a",
+  "name": "dESC_HTTP header injection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"HTTP header injection is a general class of web application security vulnerability whichoccurs when Hypertext Transfer Protocol (HTTP) headers aredynamically generated based on user input. Header injection in HTTP responses can allowfor HTTP response splitting (also known as CRLF, Carriage Return Line Feed),Session fixation via the SetCookie header, crosssite scripting (XSS),and malicious redirect attacks via the location header. HTTP header injection is arelatively new area for webbased attacks, and has primarily been pioneeredby Amit Klein in his work on request/response smuggling/splitting.Vulnerabilities due to HTTP header injections such as CRLF are no longerfeasible due to the fact that multiple header requests are not possible.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

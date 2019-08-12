@@ -1,0 +1,30 @@
+{
+  "id": "058509b6-1a7b-497b-b293-429fdbf116ce",
+  "name": "desc_ GET POST requests",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Authors of services which use the HTTP protocol SHOULD NOT use GETbased forms for thesubmission of sensitive data, because this will cause this data to beencoded in the RequestURI. Many existing servers, proxies,and browsers will log the request URL in some place where it might bevisible to third parties. Servers can use POSTbased form submission instead.GET parameters are also more likely to be vulnerable to XSS. Please refer to theXSS manual in the knowledge base for more information.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

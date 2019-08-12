@@ -1,0 +1,27 @@
+{
+  "id": "659d81ee-2d08-47e3-bf6e-55aa9a899bfc",
+  "name": "sol_ Intrusion detecting and reporting",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Intrusion detecting could be done by means of a:\\\"Positive security model:\\\"In this model, you create certain regular expressions in order to only make the applicationpass the socalled \\\"known good\\\".Whenever an application detects strange behavior and anomalies,these issues should be reported. Keep in mind whenever the application changes, thiswhitelist method has to evolve alongside with it. A big con is it could generate a lotof reports and alerts.\\\"Negative security model:\\\"Create a blacklist with known attacks and malicious input and make the application reporton detection of this input. You could also prioritise different malicious input andclassify them into different groups.Whatever method you may choose to prefer, you should always ensure error handling logic insecurity controls denies access by default. With this approach applied, you will have ahigher probability that whenever an attacker manages to break your applications intendedoperation, it will not fail in a way which increases his attack vector.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "0df08965-357c-4258-9a18-7285b9195f08",
+  "name": "sol_Incorrect or missing charset",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Define the charset for all your pages in order to prevent the browser for guessing the content types.This could be done by adding a meta header in the head of your HTML like:For HTML4: ```html \u003cmeta httpequiv\u003d\\\"ContentType\\\" content\u003d\\\"text/html;charset\u003dISO88591\\\"\u003e ``` For HTML5: ```html \u003cmeta charset\u003d\\\"UTF8\\\"\u003e ``` Or simply by setting contenttype headers by your serverside language, C example of a content type header: Response.AppendHeader(\\\"ContentType:text/html\\\", \\\"charset\u003dUTF8\\\"); \""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

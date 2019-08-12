@@ -1,0 +1,74 @@
+[
+  {
+    "id": "980f895e-6105-4201-8905-6e9a01d81534",
+    "data": [
+      {
+        "text": "How to get secured against Servers must not be trusted without explicit authentication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4cca7ad9-a30f-4019-94ac-78c2d2d1ac40",
+    "data": [
+      {
+        "text": "How to defend Servers must not be trusted without explicit authentication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "200cfb6c-d055-4fc9-abbf-c9d0f17f6e6d",
+    "data": [
+      {
+        "text": "How to stop Servers must not be trusted without explicit authentication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c2034867-aa72-48d5-a7f8-8f5f00b516ed",
+    "data": [
+      {
+        "text": "How to mitigate Servers must not be trusted without explicit authentication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0fd80d11-a049-451f-a47b-6c743f08578c",
+    "data": [
+      {
+        "text": "How to resolve Servers must not be trusted without explicit authentication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6afde8e2-e1f0-49a5-b2ae-91e155ea51cd",
+    "data": [
+      {
+        "text": "How to solve Servers must not be trusted without explicit authentication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

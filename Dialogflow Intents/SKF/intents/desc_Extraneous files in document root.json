@@ -1,0 +1,30 @@
+{
+  "id": "695b8b8f-e90d-4a2b-b601-5ca7ef3b655d",
+  "name": "desc_Extraneous files in document root",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever the document root contains extraneous files, these files could be accessed by anattacker or could possibly contain functionality which could contain other vulnerabilities.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

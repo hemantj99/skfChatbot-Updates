@@ -1,0 +1,91 @@
+{
+  "id": "a0aa8164-f62b-4722-965e-bebacbd338ae",
+  "parentId": "f7c9d71d-da5d-43f9-bf73-c06bea3c20df",
+  "rootParentId": "ebe9b651-a881-48b3-b78b-e3e3e76c01f5",
+  "name": "checklist - ASVS Level 2 more - custom",
+  "auto": true,
+  "contexts": [
+    "checklist-ASVSLevel2more-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checklist.checklist-custom.checklist-ASVSLevel2more-custom",
+      "affectedContexts": [
+        {
+          "name": "checklist-ASVSLevel2more-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "slack",
+          "lang": "en",
+          "payload": {
+            "slack": {
+              "text": "1.0 Architecture, Design and Threat Modeling Requirements 2.0 Authentication Verification Requirements 3.0 Session Management Verification Requirements 4.0 Access Control Verification Requirements 5.0 Validation, Sanitization and Encoding Verification Requirements 6.0 Stored Cryptography Verification Requirements 7.0 Error Handling and Logging Verification Requirements 8.0 Error Handling and Logging Verification Requirements 9.0 Communications Verification Requirements 10.0 Malicious Code Verification Requirements 11.0 Business Logic Verification Requirements 12.0 File and Resources Verification Requirements 13.0 API and Web Service Verification Requirements 14.0 Configuration Verification Requirements",
+              "attachments": [
+                {
+                  "text": "Choose anyone",
+                  "fallback": "You are unable to choose a game",
+                  "callback_id": "wopr_game",
+                  "color": "#3AA3E3",
+                  "attachment_type": "default",
+                  "actions": [
+                    {
+                      "name": "text",
+                      "text": "9.0",
+                      "type": "button",
+                      "value": "Communications Verification Requirements"
+                    },
+                    {
+                      "name": "text",
+                      "text": "10.0",
+                      "type": "button",
+                      "value": "Malicious Code Verification Requirements"
+                    },
+                    {
+                      "name": "text",
+                      "text": "11.0",
+                      "type": "button",
+                      "value": "Business Logic Verification Requirements"
+                    },
+                    {
+                      "name": "text",
+                      "text": "12.0",
+                      "type": "button",
+                      "value": "File and Resources Verification Requirements"
+                    },
+                    {
+                      "name": "text",
+                      "text": "More",
+                      "type": "button",
+                      "value": "checklist more-3"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

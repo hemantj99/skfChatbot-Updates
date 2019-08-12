@@ -1,0 +1,30 @@
+{
+  "id": "5f546105-d5e0-4fdc-a72c-3cf7448cf654",
+  "name": "desc_Logout structuring",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Placing a logout link on every page that requires authentication helps the user end thesession when he is done with the site. Ending the session helps prevent hijacking.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

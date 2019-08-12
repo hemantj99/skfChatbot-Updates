@@ -1,0 +1,38 @@
+{
+  "id": "11d0dbc5-d04d-4ee7-9c44-b0bad7098695",
+  "name": "sol_Audit logs",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "For More Details",
+          "url": "https://demo.securityknowledgeframework.org/knowledgebase"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"An audit log should contain the following items: User ID Operation Success/failure of the operation Privileges TimestampDepending on the gravity of the users violation, there should also be a record kept foreach user to lock their accounts after a certain number of violations. This should beapplied since we can now assume it is an attacker trying to compromise your application.Also when doing audit logs, make sure you always do logging before taking action in case theaction is not properly processed or terminated by your application. When using thisapproach you are always in possession of an complete audit trail.\""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "8a6a32d4-5660-4eed-8c74-dbe5783c9081",
+  "name": "sol_Authentication enforced by the web sever",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Always make sure your webserver and application are correctly configured to handle authentication. Also the application and webserver should deny access by default should there be an error of any kind. \""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

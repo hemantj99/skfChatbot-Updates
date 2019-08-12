@@ -1,0 +1,30 @@
+{
+  "id": "acc95ec2-c341-40c0-b742-8e22e9c7936f",
+  "name": "sol_GET POST requests",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Whenever transmitting sensitive data always do this by means of the POST request or by header.Note: Avoid userinput in your application header, this could lead to vulnerabilities.Also make sure you disable all other HTTP request methods which are unnecessary foryour applications operation such as; REST, PUT, TRACE, DELETE, OPTIONS, etc, sinceallowing these request methods could lead to vulnerabilities and injections.\""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

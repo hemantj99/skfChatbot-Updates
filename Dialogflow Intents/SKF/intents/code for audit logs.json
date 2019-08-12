@@ -1,0 +1,38 @@
+{
+  "id": "7650f84e-4812-41f9-b547-f05c49e95193",
+  "name": "code for audit logs",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "For More Details",
+          "url": "https://demo.securityknowledgeframework.org/knowledgebase"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"content\": \"Audit logs\\n\\n\\n Example:\\n\\n\\n   \\tusing System;\\n\\tusing System.Collections.Generic;\\n\\tusing System.Linq;\\n\\tusing System.Web;\\n\\tusing System.IO;\\n\\tusing System.Data.SqlClient;\\n\\tusing System.ComponentModel.DataAnnotations.Schema;\\n\\tusing System.ComponentModel.DataAnnotations;\\n\\n\\tnamespace MvcApplication1.Controllers\\n\\t{\\n\\t\\t[Table(\\\"counter\\\")]\\n\\t\\tpublic class auditLogs\\n\\t\\t{\\n\\n\\t\\t\\t//Getters and setters for our user method\\n\\t\\t\\t[Key]\\n\\t\\t\\tpublic int countID { get; set; }\\n\\t\\t\\tpublic int userID  { get; set; }\\n\\t\\t\\tpublic int count   { get; set; }\\n\\t\\t\\tpublic int blocker { get; set; }\\n\\n\\t\\t\\t//Here we connect to the database by means of a connection string as configured in the web.config\\n\\t\\t\\tSqlConnection conn \u003d new \\n\\t\\t\\tSqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings[\\\"users\\\"].ConnectionString);\\n\\n\\t\\t\\tpublic void SetLog(string session, string message, string state, string threat)\\n\\t\\t\\t{\\n\\t\\t\\t\\tusing (StreamWriter writer \u003d new StreamWriter(@\\\"C:\\\\Users\\\\Public\\\\xml\\\\logs.txt\\\", true))\\n\\t\\t\\t\\t{\\n                    writer.WriteLine(session + \\\"  \\\" + message + \\\"  \\\" + HttpContext.Current.Request.ServerVariables[\\\"REMOTE_ADDR\\\"] +\\n                    \\\"  \\\" + state + \\\"  \\\" + DateTime.Now + \\\"  \\\" + threat);\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\n\\t\\t\\tpublic void counter(int counting)\\n\\t\\t\\t{\\n\\t\\t\\t\\t/*\\n\\t\\t\\t\\tFirst we select the counts from the count table in order to verify if the user session should be terminated\\n\\t\\t\\t\\tor that the user should be locked out.\\n\\t\\t\\t\\t*/\\n\\t\\t\\t\\tconn.Open();\\n\\n\\t\\t\\t\\tstring query \u003d string.Format(\\\"SELECT * from counter WHERE userID \u003d @userID \\\");\\n\\t\\t\\t\\tSqlCommand cmd \u003d new SqlCommand(query, conn);\\n\\n\\t\\t\\t\\t//We bind the parameter in order to prevent sql injections\\n\\t\\t\\t\\tcmd.Parameters.AddWithValue(\\\"@userID\\\", System.Web.HttpContext.Current.Session[\\\"userID\\\"]);\\n\\n\\t\\t\\t\\t//Next we read the value from the database and put it into a variable\\n\\t\\t\\t\\tusing (SqlDataReader oReader \u003d cmd.ExecuteReader())\\n\\t\\t\\t\\t{\\n\\t\\t\\t\\t\\twhile (oReader.Read())\\n\\t\\t\\t\\t\\t{\\n\\t\\t\\t\\t\\t\\tcount   \u003d Convert.ToInt32(oReader[\\\"count\\\"]);\\n\\t\\t\\t\\t\\t\\tblocker \u003d Convert.ToInt32(oReader[\\\"blocker\\\"]);\\n\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t}\\n\\n\\t\\t\\t\\t//We add the counting to the database results for the final value\\n\\t\\t\\t\\tint finalCount \u003d counting +\u003d count;\\n\\t\\t\\t\\tint finalBlock \u003d counting +\u003d blocker;\\n\\n\\t\\t\\t\\t/*\\n\\t\\t\\t\\tthen we update the count table in order to keep track of the number of counts\\n\\t\\t\\t\\t*/\\n\\t\\t\\t\\ttry\\n\\t\\t\\t\\t{\\n\\t\\t\\t\\t\\tusing (SqlCommand command \u003d conn.CreateCommand())\\n\\t\\t\\t\\t\\t{\\n\\t\\t\\t\\t\\t\\tcommand.CommandText \u003d \\\"UPDATE counter set count \u003d @count, blocker \u003d @blocker WHERE userID \u003d @userID\\\";\\n\\n\\t\\t\\t\\t\\t\\t//Again we bind the parameters in order to prevent SQL injections\\n\\t\\t\\t\\t\\t\\tcommand.Parameters.AddWithValue(\\\"@count\\\", finalCount);\\n\\t\\t\\t\\t\\t\\tcommand.Parameters.AddWithValue(\\\"@blocker\\\", finalCount);\\n\\t\\t\\t\\t\\t\\tcommand.Parameters.AddWithValue(\\\"@userID\\\", System.Web.HttpContext.Current.Session[\\\"userID\\\"]);\\n\\n\\t\\t\\t\\t\\t\\tcommand.ExecuteNonQuery();\\n\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t}\\n\\t\\t\\t\\tcatch (SqlException e){\\n\\t\\t\\t\\t\\tif (e.Source !\u003d null)\\n\\t\\t\\t\\t\\t{\\n\\t\\t\\t\\t\\t\\tSystem.Web.HttpContext.Current.Response.Write(\\\"SQL insert query error in update counter\\\");\\n\\t\\t\\t\\t\\t\\tthrow;\\n\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t}\\n\\t\\t\\t\\tconn.Close();\\n\\n\\n\\t\\t\\t\\t/*\\n\\t\\t\\t\\tAfter these steps we check whether the user should be blocked, whenever the count is equal to 12 we take\\n\\t\\t\\t\\tfurther actions by means of blocking the users account and terminating his session\\n\\t\\t\\t\\t*/\\n\\n\\t\\t\\t\\tif (finalBlock \u003e\u003d 12)\\n\\t\\t\\t\\t{\\n\\t\\t\\t\\t\\ttry\\n\\t\\t\\t\\t\\t{\\n\\t\\t\\t\\t\\t\\tusing (SqlCommand command \u003d conn.CreateCommand())\\n\\t\\t\\t\\t\\t\\t{\\n\\t\\t\\t\\t\\t\\t\\tconn.Open();\\n\\t\\t\\t\\t\\t\\t\\tstring access \u003d \\\"FALSE\\\";\\n\\t\\t\\t\\t\\t\\t\\tcommand.CommandText \u003d \\\"UPDATE users set access \u003d @access WHERE userID \u003d @userID\\\";\\n\\n\\t\\t\\t\\t\\t\\t\\t//Again we bind the"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

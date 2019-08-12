@@ -1,0 +1,74 @@
+[
+  {
+    "id": "246b99f4-c551-4573-ab16-20510976c64c",
+    "data": [
+      {
+        "text": "How to get secured against Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fae68ce5-212f-4837-bec2-7e136b4961e8",
+    "data": [
+      {
+        "text": "How to defend Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e2941eba-11b9-4f48-841b-775e41d3b09c",
+    "data": [
+      {
+        "text": "How to stop Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a356d1e3-5099-4981-a738-723cb4ed4afc",
+    "data": [
+      {
+        "text": "How to mitigate Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c0d768e0-b2b1-4844-9336-a5a7df9902bf",
+    "data": [
+      {
+        "text": "How to resolve Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "13ebbe1c-574e-49db-a2a5-67dd80e8bed4",
+    "data": [
+      {
+        "text": "How to solve Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

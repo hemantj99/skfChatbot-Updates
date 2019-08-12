@@ -1,0 +1,30 @@
+{
+  "id": "2d34e2bf-2d17-488d-8f93-99176ae1a9ab",
+  "name": "sol_Possible attackers of the application must be documented",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Verify that all authentication decisions can be logged, without storing sensitive session identifiers or passwords. This should include requests with relevant metadataneeded for security investigations.\""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

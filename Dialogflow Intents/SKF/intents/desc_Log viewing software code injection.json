@@ -1,0 +1,30 @@
+{
+  "id": "695ab6f3-0942-41f9-8eab-5d8b7328ff20",
+  "name": "desc_Log viewing software code injection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever user supplied input is being handled into log viewing software, this software can be manipulated by potential attackers whenever this input is not properly being sanitized before outputting in the software. Depending on the context of where the supplied input is being used this could lead to an entire subset of attacks.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

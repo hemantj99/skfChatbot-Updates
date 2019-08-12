@@ -1,0 +1,27 @@
+{
+  "id": "f7fb8da6-30b3-4acd-a0d2-d253c2e8c0ff",
+  "name": "sol_Username enumeration",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"All error messages should be generalized in order to prevent username enumeration.Also sometimes you cannot avoid information leaking in functionalities such as aregistration page. Here you need to use tarpitting methods to prevent an automatedattack by an attacker.\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6abae41f-2afe-4743-a048-df213b9fb027",
+  "name": "desc_Absolute session time out",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"All sessions should implement an absolute timeout, regardless of session activity.This timeout defines the maximum amount of time a session can be active,closing and invalidating the session upon the defined absolute period since the givensession was initially created by the web application. After invalidating the session,the user is forced to (re)authenticate again in the web application and establisha new session. The absolute session limits the amount of time an attacker can use ahijacked session and impersonate the victim user.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

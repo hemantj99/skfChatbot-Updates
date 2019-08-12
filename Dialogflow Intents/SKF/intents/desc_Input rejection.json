@@ -1,0 +1,30 @@
+{
+  "id": "360246d9-50b3-42f5-adfd-7265f25fecc4",
+  "name": "desc_Input rejection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever the application detects malicious or unexpected userinput, you want to make surethe application actual rejects the submitted userinput rather than directly process it.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

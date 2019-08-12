@@ -1,0 +1,30 @@
+{
+  "id": "16dc11d9-ce80-4ce2-88c0-8e35e3742194",
+  "name": "desc_Logging guidelines",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"The logging should contain some guidelines in order to organize your logging file in sucha way it  would allow for a detailed investigation of the timeline when an event happens.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

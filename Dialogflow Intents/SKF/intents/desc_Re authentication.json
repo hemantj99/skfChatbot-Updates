@@ -1,0 +1,30 @@
+{
+  "id": "0ec8f764-9978-4562-93a1-eabebca28934",
+  "name": "desc_Re authentication",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever a user is changing credentials such as his password, the user should always bechallenged by the application to reauthenticate himself. This is in order to prevent anattacker from changing credentials if ever an attacker could hijack another users session.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

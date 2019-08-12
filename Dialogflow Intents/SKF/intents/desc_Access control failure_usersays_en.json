@@ -1,0 +1,134 @@
+[
+  {
+    "id": "e4f99180-983a-409a-bff5-8cec14eb0bb5",
+    "data": [
+      {
+        "text": "Do you have information about Access control failure ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b80c5880-caf4-4f72-a5a9-ce36bb87c3be",
+    "data": [
+      {
+        "text": "I want to know about XSS Access control failure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8b2e80d6-a2b9-42aa-ad9f-4030cf16dad5",
+    "data": [
+      {
+        "text": "What can you tell me about Access control failure ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e1768994-4361-4e7c-8609-9e5068d1f59e",
+    "data": [
+      {
+        "text": "What do you know about Access control failure ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a43af20f-0163-4c57-8033-632bdbfd46e9",
+    "data": [
+      {
+        "text": "Can you tell me about Access control failure ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "10373e72-299a-4d58-a64e-d17e4930b987",
+    "data": [
+      {
+        "text": "Elaborate Access control failure ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "31b46f04-3f3e-4cc3-9525-978bd7ff3689",
+    "data": [
+      {
+        "text": "Explain Access control failure ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a72a13a9-922a-4aa4-b1af-e39242d020c6",
+    "data": [
+      {
+        "text": "Access control failure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5f0e8043-2b0d-438a-9f66-4539811a7c62",
+    "data": [
+      {
+        "text": "Tell me something about Access control failure ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "853f37e3-ca35-4135-bd05-0bb7bccea71f",
+    "data": [
+      {
+        "text": "What does Access control failure mean ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "56f50d63-e566-4cc4-846b-fdc26b115d8e",
+    "data": [
+      {
+        "text": "What is Access control failure ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

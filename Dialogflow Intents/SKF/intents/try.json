@@ -1,0 +1,142 @@
+{
+  "id": "0f9e0d77-a88b-41bf-9a9c-47f27148681c",
+  "name": "try",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "facebook": {
+              "text": "Hello World",
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "php",
+                  "payload": "2.0 Authentication Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "sql",
+                  "payload": "3.0 Session Management Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "4.0",
+                  "payload": "4.0 Access Control Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "5.0",
+                  "payload": "5.0 Validation, Sanitization and Encoding Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "6.0",
+                  "payload": "6.0 Stored Cryptography Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "7.0",
+                  "payload": "7.0 Error Handling and Logging Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "8.0",
+                  "payload": "8.0 Error Handling and Logging Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "9.0",
+                  "payload": "9.0 Communications Verification Requirements"
+                },
+                {
+                  "content_type": "text",
+                  "title": "More",
+                  "payload": "ASVS Level 1 More"
+                }
+              ]
+            },
+            "telegram": {
+              "text": "1.0 Architecture, Design and Threat Modeling Requirements 2.0 Authentication Verification Requirements 3.0 Session Management Verification Requirements 4.0 Access Control Verification Requirements 5.0 Validation, Sanitization and Encoding Verification Requirements 6.0 Stored Cryptography Verification Requirements 7.0 Error Handling and Logging Verification Requirements 8.0 Error Handling and Logging Verification Requirements 9.0 Communications Verification Requirements 10.0 Malicious Code Verification Requirements 11.0 Business Logic Verification Requirements 12.0 File and Resources Verification Requirements 13.0 API and Web Service Verification Requirements 14.0 Configuration Verification Requirements",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "1.0",
+                      "callback_data": "Architecture, Design and Threat Modeling Requirements"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "2.0",
+                      "callback_data": "Authentication Verification Requirements"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "3.0",
+                      "callback_data": "Session Management Verification Requirements"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "4.0",
+                      "callback_data": "Access Control Verification Requirements"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "5.0",
+                      "callback_data": "Validation, Sanitization and Encoding Verification Requirements"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "6.0",
+                      "callback_data": "Stored Cryptography Verification Requirements"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "7.0",
+                      "callback_data": "Error Handling and Logging Verification Requirements"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "8.0",
+                      "callback_data": "Error Handling and Logging Verification Requirements"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "More",
+                      "callback_data": "ASVS Level 2 More"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

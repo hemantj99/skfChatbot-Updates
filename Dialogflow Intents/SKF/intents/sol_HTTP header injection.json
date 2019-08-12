@@ -1,0 +1,30 @@
+{
+  "id": "9a8d67c5-6adc-4b21-8ced-95b78db3ba62",
+  "name": "sol_HTTP header injection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"When userinput will be used in HTTP headers then the newlines should be escaped in acorrect manner. Recommended would be a whitelist of expected input or use a validation methodwhich for example only accepts alphanumeric values. Every detection of input which is out ofthe intended operation should be rejected.\""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "7d76c79b-1a71-4f9e-8169-2c5e743f733a",
+  "name": "desc_Audit logs",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "For More Details",
+          "url": "https://demo.securityknowledgeframework.org/knowledgebase"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"An audit trail (also called audit log) is a securityrelevant chronological record,set of records, and/or destination and source of records that provide documentaryevidence of the sequence of activities that have affected at any time a specific operation,procedure, or event.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

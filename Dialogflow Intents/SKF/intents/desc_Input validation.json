@@ -1,0 +1,30 @@
+{
+  "id": "df666a7c-bcea-483c-9235-2cab0dc4aed7",
+  "name": "desc_Input validation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"To ensure that the application is robust against all forms of input data, this data shouldbe sanitized and/or encoded on serverside since an attacker could otherwise easy bypassthese checks with an intercepting proxy.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "d81f77fe-ecde-4b22-9877-d9b093609e0e",
+  "name": "desc_IP adresses in internal HTTP headers",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever IP addresses are used in HTTP headers in internal structures of your organization,an attacker could use these to enlarge his attack vector and reconstruct yourinternal infrastructures.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

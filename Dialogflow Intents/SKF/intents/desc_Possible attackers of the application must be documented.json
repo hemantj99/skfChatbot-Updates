@@ -1,0 +1,30 @@
+{
+  "id": "e6b29d82-5c7c-4e78-bf55-6b4c1b9ebb52",
+  "name": "desc_Possible attackers of the application must be documented",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Authentication decisions should be logged along with relevant metadata for security investigations. This information could for example, be used whenever there is suspicion aboutaccounts being compromised. Also, passwords and other sensitive information should never be storedin these log files. Whenever an attacker gains knowledge of these files, this informationcould be used to compromise other accounts. Note: \\\"Usernames should also never be stored in the log files, users are not always payingattention to their actions and sometimes provide the username form field with their password.If the application would log the usernames, these passwords are now also stored and can beused to compromise accounts whenever an attacker gains knowledge of these files.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

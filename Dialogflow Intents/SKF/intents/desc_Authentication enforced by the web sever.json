@@ -1,0 +1,30 @@
+{
+  "id": "a5d2fdb8-ea10-4945-95e6-22732407cb5c",
+  "name": "desc_Authentication enforced by the web sever",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Authentication should be enforced by the webserver. Whenever these configurations arenot enforced on the server, an attacker could gain access to authorizedpages on your application.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

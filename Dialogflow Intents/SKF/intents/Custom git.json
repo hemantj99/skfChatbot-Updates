@@ -1,0 +1,115 @@
+{
+  "id": "4cfe736d-81f5-416b-944c-d8236c3f03ea",
+  "parentId": "ebe9b651-a881-48b3-b78b-e3e3e76c01f5",
+  "rootParentId": "ebe9b651-a881-48b3-b78b-e3e3e76c01f5",
+  "name": "Custom git",
+  "auto": true,
+  "contexts": [
+    "checklist-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checklist.checklist-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "slack",
+          "lang": "en",
+          "payload": {
+            "slack": {
+              "text": "1.0 Architecture, design and threat modelling 2.0 Authentication Verification Requirements",
+              "attachments": [
+                {
+                  "text": "choose one",
+                  "fallback": "You are unable to choose a game",
+                  "callback_id": "wopr_game",
+                  "color": "#3AA3E3",
+                  "attachment_type": "default",
+                  "actions": [
+                    {
+                      "name": "text",
+                      "text": "1.0",
+                      "type": "button",
+                      "value": "1.0 Architecture, design and threat modelling"
+                    },
+                    {
+                      "name": "text",
+                      "text": "2.0",
+                      "type": "button",
+                      "value": "2.0 Authentication Verification Requirements"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "1.0 Architecture, design and threat modelling 2.0 Authentication Verification Requirements",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "1.0",
+                      "callback_data": "1.0 Architecture, design and threat modelling"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "2.0",
+                      "callback_data": "2.0 Authentication Verification Requirements"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "payload": {
+            "facebook": {
+              "text": "1.0 Architecture, design and threat modelling 2.0 Authentication Verification Requirements",
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "1.0",
+                  "payload": "1.0 Architecture, design and threat modelling"
+                },
+                {
+                  "content_type": "text",
+                  "title": "2.0",
+                  "payload": "2.0 Authentication Verification Requirements"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

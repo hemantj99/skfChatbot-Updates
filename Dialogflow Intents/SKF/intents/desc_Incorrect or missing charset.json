@@ -1,0 +1,30 @@
+{
+  "id": "0ce42fdc-9e0f-4601-be29-0c4f70523de5",
+  "name": "desc_Incorrect or missing charset",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"When the browser has to guess the charset according to the content that is presented bythe application, then this could lead to XSS injections when the guess is wrong.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

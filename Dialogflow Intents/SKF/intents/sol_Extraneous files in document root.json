@@ -1,0 +1,30 @@
+{
+  "id": "b3405109-ad6a-4fa6-a423-547c4b8742d9",
+  "name": "sol_Extraneous files in document root",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Extraneous files in document root should be investigated and deleted if it\u0027s not necessaryfor the operation of the application.There are more chances of accessing hidden folders, files and some configuration files to beaccessed through document root.For example if you are using some version control system like git or svn. You may have .git,.svn folders and .gitignore files. If you are using IDE project files, you may have .idea hidden folder. Even there are chances of configuration files with common extensions, like config.json, config.yml, config.xml, package.json, .htaccess, README.md files to be present in the document root.Even there are chances of having swap files, backup files to be there in the document root.The solution for this problem is to prevent directory listing , remove the hidden folders, files and configuration files. We can even prevent the users from accessing this files with properly configuring the configuration files of the server like .htaccess files.\""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "c09a7cb7-3d34-45fc-bb15-6a25b358160d",
+  "name": "desc_Logging validation failures",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"When you log all the input validation failures in your application you can discover in a nearly stage that your application is under attack and take quick countermeasures against the attackers.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

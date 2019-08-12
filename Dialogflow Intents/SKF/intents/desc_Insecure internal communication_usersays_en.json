@@ -1,0 +1,134 @@
+[
+  {
+    "id": "bf477833-df2d-4394-871b-0f6f08ee6850",
+    "data": [
+      {
+        "text": "Do you have information about Insecure internal communication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ba8b165d-7cf9-4343-90f5-00c157491bdc",
+    "data": [
+      {
+        "text": "I want to know about XSS Insecure internal communication",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f7298469-8365-4b8a-bdda-b89e39b3b4bf",
+    "data": [
+      {
+        "text": "What can you tell me about Insecure internal communication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f8baca41-4cb4-4a4d-a2e7-a08d34dcace7",
+    "data": [
+      {
+        "text": "What do you know about Insecure internal communication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2ce406fb-1bce-4045-aab2-bffb14607ab2",
+    "data": [
+      {
+        "text": "Can you tell me about Insecure internal communication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "36df19bf-70ca-4eae-8331-9be49cd1a89d",
+    "data": [
+      {
+        "text": "Elaborate Insecure internal communication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "382b00be-6a94-4ab5-be80-dc0dc1f16b96",
+    "data": [
+      {
+        "text": "Explain Insecure internal communication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6c3b65c4-8d74-450a-9d6d-bd90ec46ad44",
+    "data": [
+      {
+        "text": "Insecure internal communication",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7d0a2d28-22a5-4c70-bac2-8dbf5d7fc714",
+    "data": [
+      {
+        "text": "Tell me something about Insecure internal communication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a448ac50-d84c-483f-8ea0-05dc255cfa89",
+    "data": [
+      {
+        "text": "What does Insecure internal communication mean ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f14a75f3-e71a-434a-837f-68383e735c68",
+    "data": [
+      {
+        "text": "What is Insecure internal communication ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

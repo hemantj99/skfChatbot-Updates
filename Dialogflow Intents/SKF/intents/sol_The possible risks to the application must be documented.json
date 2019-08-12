@@ -1,0 +1,30 @@
+{
+  "id": "34a05766-6215-42df-866d-895ea12de4af",
+  "name": "sol_The possible risks to the application must be documented",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Solution\": \"Create a section in the documentation of the project that defines the informationthat will be stored. This makes it easier to make estimations about critical partsof your application which deserve extra attention.\""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

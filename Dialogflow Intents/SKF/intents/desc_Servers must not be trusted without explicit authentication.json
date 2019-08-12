@@ -1,0 +1,30 @@
+{
+  "id": "a4e01245-bee2-4c25-bf2e-941e1c41224c",
+  "name": "desc_Servers must not be trusted without explicit authentication",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever the server your webapplication is connecting towards is not using any form ofexplicit authentication and is internet facing, then this means the servercannot be trusted. This is because the server can be potentially be owned and managed byeverybody including hackers.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

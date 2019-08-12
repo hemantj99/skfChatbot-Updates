@@ -1,0 +1,134 @@
+[
+  {
+    "id": "f097742c-7f3d-4239-8e64-57a103b18cf2",
+    "data": [
+      {
+        "text": "Do you have information about Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e21adb0e-b792-4a25-80d0-73653bd562e2",
+    "data": [
+      {
+        "text": "I want to know about XSS Audit logs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "92cb94ed-fcbe-4013-8cd6-62f46551372e",
+    "data": [
+      {
+        "text": "What can you tell me about Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9c199951-5720-4ac9-829a-6b16ea819a1b",
+    "data": [
+      {
+        "text": "What do you know about Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2ac9daa0-2af9-46ef-94a3-298e98b2aaa8",
+    "data": [
+      {
+        "text": "Can you tell me about Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d0a906b5-2b82-4a25-860e-43f6b4650dd2",
+    "data": [
+      {
+        "text": "Elaborate Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d42cd060-fabf-456e-8287-0bd8af654767",
+    "data": [
+      {
+        "text": "Explain Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7d641ae1-ccd0-4bf7-8906-484a397b3149",
+    "data": [
+      {
+        "text": "Audit logs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ebcdba0a-4ee8-4f61-8294-8e6f98eac94c",
+    "data": [
+      {
+        "text": "Tell me something about Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "485cc1ea-a540-4ac3-9a9a-6380f0af734e",
+    "data": [
+      {
+        "text": "What does Audit logs mean ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dfcf6a55-c98f-4211-b591-c89fca54e869",
+    "data": [
+      {
+        "text": "What is Audit logs ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

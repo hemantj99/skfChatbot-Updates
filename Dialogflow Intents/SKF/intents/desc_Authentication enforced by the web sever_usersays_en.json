@@ -1,0 +1,134 @@
+[
+  {
+    "id": "96297438-fef2-49a6-8cbd-0644ec0770be",
+    "data": [
+      {
+        "text": "Do you have information about Authentication enforced by the web sever ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "050b968e-9cf2-4489-b08b-8a3f596418da",
+    "data": [
+      {
+        "text": "I want to know about XSS Authentication enforced by the web sever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4de89d6a-6e3f-46d9-8003-b767180367ff",
+    "data": [
+      {
+        "text": "What can you tell me about Authentication enforced by the web sever ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dfddafb9-9210-4e32-89a2-8763c13e1716",
+    "data": [
+      {
+        "text": "What do you know about Authentication enforced by the web sever ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d746d05d-deac-4be3-9cec-d4c46bee3a11",
+    "data": [
+      {
+        "text": "Can you tell me about Authentication enforced by the web sever ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f08585d8-8661-406c-84da-21ce0cdef3a5",
+    "data": [
+      {
+        "text": "Elaborate Authentication enforced by the web sever ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46aef59a-00cd-42d4-95f5-ec9b42f8372c",
+    "data": [
+      {
+        "text": "Explain Authentication enforced by the web sever ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "197c3e66-24c3-43ce-906d-b31364189c27",
+    "data": [
+      {
+        "text": "Authentication enforced by the web sever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "80f63ece-1c00-4217-abdf-e5fd718f5dbf",
+    "data": [
+      {
+        "text": "Tell me something about Authentication enforced by the web sever ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "872dab7b-3cb1-4bf5-a0d3-9b94981faad2",
+    "data": [
+      {
+        "text": "What does Authentication enforced by the web sever mean ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "44480ee7-cd56-44de-ae91-3172070d7910",
+    "data": [
+      {
+        "text": "What is Authentication enforced by the web sever ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "id": "42daaeb0-5453-487e-81bd-fd4d4b09fa87",
+  "name": "desc_Insecure internal communication",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"Whenever organizations communicate by means of unencrypted connections, an attackercould easily sniff insecure communications and access sensitive information.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

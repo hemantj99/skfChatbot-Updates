@@ -1,0 +1,30 @@
+{
+  "id": "ba711cd3-fbb0-4358-b568-a130bb07aa0f",
+  "name": "desc_The possible risks to the application must be documented",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\"Description\": \"The information that is stored of the application and/or useractivities needs to be documented, this will make it transparent where sensitiveinformation is stored and why.\","
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
