@@ -39,9 +39,6 @@ Dialogflow Telegram Integration allows you to easily create Telegram bots with n
 
 #### [Telegram bot](https://web.telegram.org/#/im?p=@skf_chatbot)
 
-![image](screenshots/1.png)
-
-
 ## SKF-Chatbot Facebook Version:
 
 The Dialogflow Facebook integration allows you to easily create a Facebook Messenger bot with natural language understanding, based on the Dialogflow technology.
@@ -51,6 +48,7 @@ The Dialogflow Facebook integration allows you to easily create a Facebook Messe
 In order to set up the Facebook integration for your agent, you'll need the following:
 -	a Facebook account
 -	a Facebook page to add your agent to When a user visits your page and sends you a message, they'll be talking to your agent.
+
 ### Create a Facebook App
 -	Log into the Facebook Developer Console.
 -	Click on My Apps in the upper right hand corner.
@@ -68,7 +66,7 @@ In order to set up the Facebook integration for your agent, you'll need the foll
 -	Click the Start button.
  
 ### Go to this link to test out our agent:
-### [Facebook bot](m.me/869613130068384)
+#### [Facebook bot](m.me/869613130068384)
  
 ## SKF-Chatbot Desktop Version:
  
@@ -106,5 +104,5 @@ In order to set up the Slack integration for your agent, you'll need the followi
 -	Click Start
  
 ### Go to this link to test out our agent:
-### SKF-Chatbot Slack Version
+#### [SKF-Chatbot Slack Version](https://join.slack.com/t/skf-chatbot/shared_invite/enQtNzE3NjgxODI0NTE2LTgyZGI3NzJjM2MyZDNmOWU3ZjRkNzk3NzRmN2FiMjI1NjBmM2RkYWQxNDMwMmEyYzU5Mzc2ZmE1ODRhMjI5YjQ)
 
