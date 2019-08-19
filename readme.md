@@ -41,9 +41,70 @@ Dialogflow Telegram Integration allows you to easily create Telegram bots with n
 
 ![image](screenshots/1.png)
 
-#### [Facebook bot](m.me/869613130068384)
 
-- It is in a test version...will be Released soon
-- If you want to check this out, Message me... I will add you as a tester.
+## SKF-Chatbot Facebook Version:
 
-![image](screenshots/facebook_test.png)
+The Dialogflow Facebook integration allows you to easily create a Facebook Messenger bot with natural language understanding, based on the Dialogflow technology.
+
+### Setting Up Facebook
+
+In order to set up the Facebook integration for your agent, you'll need the following:
+-	a Facebook account
+-	a Facebook page to add your agent to When a user visits your page and sends you a message, they'll be talking to your agent.
+### Create a Facebook App
+-	Log into the Facebook Developer Console.
+-	Click on My Apps in the upper right hand corner.
+-	Click on Add a New App and enter a name and contact email address
+-	Click Create App ID.
+ 
+-	On the next page, click the Get Started button for the Messenger option.
+-	Under the Token Generation section, choose one of your Facebook pages.
+-	This will generate a Page Access Token. Keep this token handy, as you'll need to enter it in Dialogflow.
+
+### Setting Up Dialogflow
+-	Click on the Integrations option in the left menu and switch on Facebook Messenger. In the dialog that opens, enter the following information:
+-	Verify Token - This can be any string and is solely for your purposes
+-	Page Access Token - Enter the token generated in the Facebook Developer Console
+-	Click the Start button.
+ 
+### Go to this link to test out our agent:
+### [Facebook bot](m.me/869613130068384)
+ 
+## SKF-Chatbot Desktop Version:
+ 
+## SKF-Chatbot Slack Version:
+
+Dialogflow's Slack Integration makes it easy to create your own Slack apps and bots and train them to understand natural language.
+
+### Setting Up Slack
+
+In order to set up the Slack integration for your agent, you'll need the following:
+-	a Slack account
+-	a Slack Team
+
+### Create a Slack App
+
+-	Navigate to the Slack Developer Console
+-	Enter a name for your app
+-	Choose a Team you would like the app associated with
+-	Click the Create App button
+ 
+### Add a Bot User
+-	Click on Bot Users in the left hand menu
+-	Click the Add a Bot User button
+-	Enter a name for your Slack bot (this is what users will see they add your bot)
+-	Enable Always Show My Bot as Online
+-	Click the Add Bot User button
+ 
+### Enabling Integration in Dialogflow
+-	In the Slack Developer Console, click on Basic Information in the left hand menu and scroll down to the App Credentials section. Make note of the Client ID, Client Secret, and Verification Token.
+ 
+### Link Slack to Dialogflow
+-	In Dialogflow, go to Integrations in the left hand menu
+-	Click on the Slack tile
+-	Enter the related values into the following fields: a) Client ID b) Client Secret c) Verification Token
+-	Click Start
+ 
+### Go to this link to test out our agent:
+### SKF-Chatbot Slack Version
+
