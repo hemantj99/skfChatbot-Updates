@@ -66,7 +66,7 @@ In order to set up the Facebook integration for your agent, you'll need the foll
 -	Click the Start button.
  
 ### Go to this link to test out our agent:
-#### [Facebook bot](m.me/869613130068384)
+#### [Facebook bot](https://www.facebook.com/SKF-Chatbot-869613130068384/?view_public_for=869613130068384)
  
 ## SKF-Chatbot Desktop Version:
  
