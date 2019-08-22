@@ -28,12 +28,17 @@ Dialogflow Telegram Integration allows you to easily create Telegram bots with n
 -	Click on or type /newbot and enter a name
 -	Enter a username for the bot, ending in "bot" (e.g. skf_chatbot)
 -	Copy the generated access token
+
+![image](screenshots/h1.png)
  
 ## Setting Up Dialogflow
 -	In Dialogflow, go to Integrations in the left hand menu
 -	Click on the Telegram tile
 -	Paste the Access Token into the related field
 -	Click the Start button
+
+![image](screenshots/h2.png)
+
  
 ### Go to this link to test out our agent:
 
@@ -54,16 +59,24 @@ In order to set up the Facebook integration for your agent, you'll need the foll
 -	Click on My Apps in the upper right hand corner.
 -	Click on Add a New App and enter a name and contact email address
 -	Click Create App ID.
+
+![image](screenshots/h3.png)
+
  
 -	On the next page, click the Get Started button for the Messenger option.
 -	Under the Token Generation section, choose one of your Facebook pages.
 -	This will generate a Page Access Token. Keep this token handy, as you'll need to enter it in Dialogflow.
+
+![image](screenshots/h4.png)
 
 ### Setting Up Dialogflow
 -	Click on the Integrations option in the left menu and switch on Facebook Messenger. In the dialog that opens, enter the following information:
 -	Verify Token - This can be any string and is solely for your purposes
 -	Page Access Token - Enter the token generated in the Facebook Developer Console
 -	Click the Start button.
+
+![image](screenshots/h5.png)
+
  
 ### Go to this link to test out our agent:
 #### [Facebook bot](https://www.facebook.com/SKF-Chatbot-869613130068384/?view_public_for=869613130068384)
