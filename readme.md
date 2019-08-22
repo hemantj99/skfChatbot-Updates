@@ -60,7 +60,7 @@ In order to set up the Facebook integration for your agent, you'll need the foll
 -	Click on Add a New App and enter a name and contact email address
 -	Click Create App ID.
 
-![image](screenshots/h3.png)
+![image](screenshots/h6.png)
 
  
 -	On the next page, click the Get Started button for the Messenger option.
@@ -82,6 +82,9 @@ In order to set up the Facebook integration for your agent, you'll need the foll
 #### [Facebook bot](https://www.facebook.com/SKF-Chatbot-869613130068384/?view_public_for=869613130068384)
  
 ## SKF-Chatbot Desktop Version:
+
+![image](screenshots/Screenshot_6.png)
+
  
 ## SKF-Chatbot Slack Version:
 
@@ -93,6 +96,7 @@ In order to set up the Slack integration for your agent, you'll need the followi
 -	a Slack account
 -	a Slack Team
 
+
 ### Create a Slack App
 
 -	Navigate to the Slack Developer Console
@@ -100,22 +104,31 @@ In order to set up the Slack integration for your agent, you'll need the followi
 -	Choose a Team you would like the app associated with
 -	Click the Create App button
  
+![image](screenshots/slack_1.png)
+ 
 ### Add a Bot User
 -	Click on Bot Users in the left hand menu
 -	Click the Add a Bot User button
 -	Enter a name for your Slack bot (this is what users will see they add your bot)
 -	Enable Always Show My Bot as Online
 -	Click the Add Bot User button
- 
+
+![image](screenshots/slack_2.png)
+
+
 ### Enabling Integration in Dialogflow
 -	In the Slack Developer Console, click on Basic Information in the left hand menu and scroll down to the App Credentials section. Make note of the Client ID, Client Secret, and Verification Token.
- 
+
+![image](screenshots/h8.png)
+
 ### Link Slack to Dialogflow
 -	In Dialogflow, go to Integrations in the left hand menu
 -	Click on the Slack tile
 -	Enter the related values into the following fields: a) Client ID b) Client Secret c) Verification Token
 -	Click Start
- 
+
+![image](screenshots/h7.png)
+
 ### Go to this link to test out our agent:
 #### [SKF-Chatbot Slack Version](https://join.slack.com/t/skf-chatbot/shared_invite/enQtNzE3NjgxODI0NTE2LTgyZGI3NzJjM2MyZDNmOWU3ZjRkNzk3NzRmN2FiMjI1NjBmM2RkYWQxNDMwMmEyYzU5Mzc2ZmE1ODRhMjI5YjQ)
 
