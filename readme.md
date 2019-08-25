@@ -20,8 +20,7 @@ It will answer you with the description of xss.
 
 Similarly, you can ask for the **solution** like: How to solve xss, How to resolve csrf etc. And for the **code** example it can be like code for xss filtering in java. 
 
-#### Get Started with DialogFlow
-https://medium.com/@hemantjain1999/get-started-with-dialogflow-596f9694a397
+### Get Started with DialogFlow: https://medium.com/@hemantjain1999/get-started-with-dialogflow-596f9694a397
 
 ## SKF-Chatbot Telegram Version:
 Dialogflow Telegram Integration allows you to easily create Telegram bots with natural language understanding based on the Dialogflow technology.
@@ -92,8 +91,7 @@ In order to set up the Facebook integration for your agent, you'll need the foll
 
 ![image](screenshots/Screenshot_6.png)
 
- ### Implementing Web Scraping in Python with BeautifulSoup and Google API
-:https://medium.com/@hemantjain1999/implementing-web-scraping-in-python-with-beautifulsoup-and-google-api-34c7282b9257?source=friends_link&sk=9c57a247551280eff4d39c794133b2f8
+ ### Implementing Web Scraping in Python with BeautifulSoup and Google API :https://medium.com/@hemantjain1999/implementing-web-scraping-in-python-with-beautifulsoup-and-google-api-34c7282b9257?source=friends_link&sk=9c57a247551280eff4d39c794133b2f8
 
 
 ## SKF-Chatbot Slack Version:
@@ -146,3 +144,5 @@ In order to set up the Slack integration for your agent, you'll need the followi
 
 ## SKF-Chatbot Web Version:
 ![image](screenshots/Screenshot_7.png)          ![image](screenshots/Screenshot_8.png)
+
+### You can test Web Version here: [SKF-Chatbot Web Version](https://thenoobsway.com/webbot/webchatbot.html)
