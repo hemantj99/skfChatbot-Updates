@@ -83,7 +83,7 @@ In order to set up the Facebook integration for your agent, you'll need the foll
 ### Go to this link to test out our agent:
 #### [Facebook bot](https://www.facebook.com/SKF-Chatbot-869613130068384/?view_public_for=869613130068384)
  
-### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-facebook-messenger-d0ee06784619?source=friends_link&sk=5fc030228443478c72155516d4723952
+#### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-facebook-messenger-d0ee06784619?source=friends_link&sk=5fc030228443478c72155516d4723952
 
 ## SKF-Chatbot Desktop Version:
 
@@ -136,4 +136,8 @@ In order to set up the Slack integration for your agent, you'll need the followi
 ### Go to this link to test out our agent:
 #### [SKF-Chatbot Slack Version](https://join.slack.com/t/skf-chatbot/shared_invite/enQtNzE3NjgxODI0NTE2LTgyZGI3NzJjM2MyZDNmOWU3ZjRkNzk3NzRmN2FiMjI1NjBmM2RkYWQxNDMwMmEyYzU5Mzc2ZmE1ODRhMjI5YjQ)
 
-### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-slack-cb72f8f37fd2?source=friends_link&sk=1dc35b0abfe69dd6aa29082ec557b2a6
+#### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-slack-cb72f8f37fd2?source=friends_link&sk=1dc35b0abfe69dd6aa29082ec557b2a6
+
+## SKF-Chatbot Web Version:
+
+
