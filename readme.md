@@ -143,6 +143,8 @@ In order to set up the Slack integration for your agent, you'll need the followi
 #### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-slack-cb72f8f37fd2?source=friends_link&sk=1dc35b0abfe69dd6aa29082ec557b2a6
 
 ## SKF-Chatbot Web Version:
-![image](screenshots/Screenshot_7.png)          ![image](screenshots/Screenshot_8.png)
 
 ### You can test Web Version here: [SKF-Chatbot Web Version](https://thenoobsway.com/webbot/webchatbot.html)
+
+![image](screenshots/Screenshot_7.png)          ![image](screenshots/Screenshot_8.png)
+
