@@ -91,6 +91,17 @@ In order to set up the Facebook integration for your agent, you'll need the foll
 
 ![image](screenshots/Screenshot_6.png)
 
+### For using Desktop Version:
+
+- Clone this repo: `git clone https://github.com/hemantj99/skfChatbot-Updates.git`
+- `cd skfChatbot-Updates`
+- `cd Desktop Version`
+- `pip install -r requirements.txt`
+- `python deskVer.py`
+
+*Note: Use 'ENTER' key to send the messages to the bot.*
+For ex: Code example for XSSProtection header in asp. Then press 'Enter'.
+
  ### Implementing Web Scraping in Python with BeautifulSoup and Google API :https://medium.com/@hemantjain1999/implementing-web-scraping-in-python-with-beautifulsoup-and-google-api-34c7282b9257?source=friends_link&sk=9c57a247551280eff4d39c794133b2f8
 
 
