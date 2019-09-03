@@ -14,13 +14,13 @@ Chatbots are software agents that interact with the user in a conversation. A ch
 SKF-Chatbot is the bot which will help you with the details or answer your queries about the different vulnerabilities. The bot can be asked about the **description, solution** of the vulnerability and also help you with the **code snippet** in various languages.
 **Language Supported: Django, Java, Flask, Php, Ruby**
 
-#### For ex: If you ask What is XSS?
+### For ex: If you ask What is XSS?
 It will answer you with the description of xss.
 **Something like this:** Description for xss injection is : Every time the application gets userinput, whether this showing it on screen or processingthis data in the application background, these parameters should be escaped for maliciouscode in order to prevent crosssite scripting injections.When an attacker gains the possibility to perform an XSS injection,he is given the opportunity to inject HTML and JavaScript code directly into theapplication. This could lead to accounts being compromised by stealing session cookies or directly affect the operation of the target application. 
 
 Similarly, you can ask for the **solution** like: How to solve xss, How to resolve csrf etc. And for the **code** example it can be like code for xss filtering in java. 
 
-### Get Started with DialogFlow: https://medium.com/@hemantjain1999/get-started-with-dialogflow-596f9694a397
+#### Get Started with DialogFlow: https://medium.com/@hemantjain1999/get-started-with-dialogflow-596f9694a397
 
 ## SKF-Chatbot Telegram Version:
 Dialogflow Telegram Integration allows you to easily create Telegram bots with natural language understanding based on the Dialogflow technology.
@@ -46,7 +46,7 @@ Dialogflow Telegram Integration allows you to easily create Telegram bots with n
 
 ### [Telegram bot](https://web.telegram.org/#/im?p=@skf_chatbot)
 
-### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-telegram-4048e16397fc?source=friends_link&sk=414edb0208fd5132cf603260a3dc2467
+#### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-telegram-4048e16397fc?source=friends_link&sk=414edb0208fd5132cf603260a3dc2467
 
 ## SKF-Chatbot Facebook Version:
 
@@ -85,7 +85,7 @@ In order to set up the Facebook integration for your agent, you'll need the foll
 ### Go to this link to test out our agent:
 ### [Facebook bot](https://www.facebook.com/SKF-Chatbot-869613130068384/?view_public_for=869613130068384)
  
-### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-facebook-messenger-d0ee06784619?source=friends_link&sk=5fc030228443478c72155516d4723952
+#### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-facebook-messenger-d0ee06784619?source=friends_link&sk=5fc030228443478c72155516d4723952
 
 ## SKF-Chatbot Desktop Version:
 
@@ -102,7 +102,7 @@ In order to set up the Facebook integration for your agent, you'll need the foll
 *Note: Use 'ENTER' key to send the messages to the bot.*
 For ex: Code example for XSSProtection header in asp. Then press 'Enter'.
 
- ## Implementing Web Scraping in Python with BeautifulSoup and Google API :https://medium.com/@hemantjain1999/implementing-web-scraping-in-python-with-beautifulsoup-and-google-api-34c7282b9257?source=friends_link&sk=9c57a247551280eff4d39c794133b2f8
+ #### Implementing Web Scraping in Python with BeautifulSoup and Google API :https://medium.com/@hemantjain1999/implementing-web-scraping-in-python-with-beautifulsoup-and-google-api-34c7282b9257?source=friends_link&sk=9c57a247551280eff4d39c794133b2f8
 
 
 ## SKF-Chatbot Slack Version:
@@ -151,7 +151,7 @@ In order to set up the Slack integration for your agent, you'll need the followi
 ### Go to this link to test out our agent:
 ### [SKF-Chatbot Slack Version](https://join.slack.com/t/skf-chatbot/shared_invite/enQtNzE3NjgxODI0NTE2LTgyZGI3NzJjM2MyZDNmOWU3ZjRkNzk3NzRmN2FiMjI1NjBmM2RkYWQxNDMwMmEyYzU5Mzc2ZmE1ODRhMjI5YjQ)
 
-### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-slack-cb72f8f37fd2?source=friends_link&sk=1dc35b0abfe69dd6aa29082ec557b2a6
+#### For More Guidance, Check this: https://medium.com/@hemantjain1999/dialogflow-integration-with-slack-cb72f8f37fd2?source=friends_link&sk=1dc35b0abfe69dd6aa29082ec557b2a6
 
 ## SKF-Chatbot Web Version:
 
