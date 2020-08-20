@@ -59,27 +59,4 @@ elif choice=='2':
     print("\nhttp://www.youtube.com/watch?v=" + final_search[2])
     print("\nhttp://www.youtube.com/watch?v=" + final_search[3])
 else:
-    print("Enter correct choice") 
-
-
-#print(type(results))
-
-# orig_stdout = sys.stdout
-# f = open('out.txt', 'w')
-# sys.stdout = f
-
-# for result in results:
-#     print (results)
-
-# sys.stdout = orig_stdout
-# f.close()
-# f = open('out.txt','r')
-# f1=f.readlines()
-# #print(f1)
-# #print(type(f1))
-# for x in f1:
-#     print(x)
-#     print(type(x))
-#     break
-    
-# f.close()
+    print("Enter correct choice")
