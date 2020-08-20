@@ -4,8 +4,6 @@ from bs4 import BeautifulSoup
 
 import urllib
 
-#q=input("Enter your query")
-#query = '"'+"'"+q+"'"+'"'
 query="'xss'"
 query = urllib.parse.quote_plus(query) # Format into URL encoding
 number_result = 20
@@ -22,21 +20,17 @@ links = []
 titles = []
 descriptions = []
 for r in result_div:
-    # Checks if each element is present, else, raise exception
         link = r.find('a', href = True)
         title = r.find('h3', attrs={'class': 'r'}).get_text()
         description = r.find('span', attrs={'class': 'st'}).get_text()
         
-        # Check to make sure everything is present before appending
         if link != '' and title != '' and description != '':
             
             links.append(link['href'])
             titles.append(title)
             descriptions.append(description)
         print(links)
-        print(type(links))
-        
-    # Next loop if one element is not present
+        print(type(links))        
         continue
 
 for i in links:
